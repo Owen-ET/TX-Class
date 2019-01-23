@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0118d7e-b2d2-4941-b107-f8f8ffe66014" name="Default Changelist" comment="测试">
+    <list default="true" id="e0118d7e-b2d2-4941-b107-f8f8ffe66014" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/XueqiuTesting0117.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/SearchPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SearchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SearchTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="226">
+              <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#850#851#0" expanded="true" />
@@ -69,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="217">
+              <caret line="48" column="72" lean-forward="true" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -170,7 +165,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="916" />
+    <option name="x" value="915" />
     <option name="y" value="23" />
     <option name="width" value="1064" />
     <option name="height" value="745" />
@@ -199,27 +194,6 @@
               <item name="XueqiuTesting0117" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="XueqiuTesting0117" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="XueqiuTesting0117" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="XueqiuTesting0117" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="XueqiuTesting0117" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="XueqiuTesting0117" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="XueqiuTesting0117" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="XueqiuTesting0117" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -228,6 +202,17 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="XueqiuTesting0117" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="XueqiuTesting0117" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="XueqiuTesting0117" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="XueqiuTesting0117" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test-classes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -238,7 +223,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548236376743" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548236477956" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -361,7 +346,7 @@
       <workItem from="1548213497101" duration="801000" />
       <workItem from="1548222163047" duration="11000" />
       <workItem from="1548222258819" duration="303000" />
-      <workItem from="1548222657753" duration="4323000" />
+      <workItem from="1548222657753" duration="4743000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1548223024427</created>
@@ -398,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548223685985</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="测试">
+      <created>1548236393119</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1548236393119</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -434,7 +426,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49429000" />
+    <option name="totallyTimeSpent" value="49849000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -446,7 +438,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="916" y="23" width="1064" height="745" extended-state="0" />
+    <frame x="915" y="23" width="1064" height="745" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2994129" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -648,22 +641,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="226">
+          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#850#851#0" expanded="true" />
             <element signature="e#877#878#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="48" column="72" lean-forward="true" selection-start-line="48" selection-start-column="72" selection-end-line="48" selection-end-column="72" />
         </state>
       </provider>
     </entry>
