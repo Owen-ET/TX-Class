@@ -29,7 +29,7 @@ public class SearchTest {
 
     }
 
-    // 数据驱动1
+    // 数据驱动
     @ParameterizedTest
     @CsvSource({
             "pdd, 拼多多",
