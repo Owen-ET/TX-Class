@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <test thread-count="5" verbose="0" name="/Users/zhangc/Desktop/mine/Stu资料/课堂/03 Java基础语言课程/Project/XunitDemo(failed)">
+    <classes>
+      <class name="TestXunit01.ShoppingTest">
+        <methods>
+          <include name="testGetPrice"/>
+        </methods>
+      </class> <!-- TestXunit01.ShoppingTest -->
+    </classes>
+  </test> <!-- /Users/zhangc/Desktop/mine/Stu资料/课堂/03 Java基础语言课程/Project/XunitDemo(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

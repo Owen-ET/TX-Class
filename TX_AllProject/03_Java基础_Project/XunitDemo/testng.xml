@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="1" preserve-order="true" name="/Users/zhangc/Desktop/mine/Stu资料/课堂/03 Java基础语言课程/Project/XunitDemo">
+        <groups>
+            <dependencies>
+                <group name="group1" depends-on="">
+                    <classes>
+                        <!--<class name="TestXunit01.LoginTest">-->
+                            <!--<methods>-->
+                                <!--<include name="testLogin"></include>-->
+                                <!--&lt;!&ndash;<parameter name="user" value="zc"></parameter>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<parameter name="pwd" value="123"></parameter>&ndash;&gt;-->
+                                <!--&lt;!&ndash;<parameter name="expect" value="欢迎zc！"></parameter>&ndash;&gt;-->
+                            <!--</methods>-->
+                        <!--</class>-->
+                        <class name="TestXunit01.ShoppingTest01">
+                            <methods>
+                                <include name="testGetPrice01"></include>
+                            </methods>
+                        </class>
+                    </classes>
+                </group>
+            </dependencies>
+        </groups>
+    </test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+<!--<classes>-->
+<!--<class name="TestXunit.LoginTest">-->
+    <!--<methods>-->
+        <!--<include name="testLogin"></include>-->
+    <!--</methods>-->
+<!--</class>-->
+
+<!--<class name="TestXunit.ShoppingTest">-->
+    <!--<methods>-->
+        <!--<include name="testGetPrice"></include>-->
+    <!--</methods>-->
+<!--</class>-->
+<!--</classes>-->
+
+
+<!--<classes>-->
+<!--<class name="DemoXunit.LoginTest">-->
+    <!--<methods>-->
+        <!--<include name="testLogin"/>-->
+    <!--</methods>-->
+<!--</class>-->
+<!--<class name="DemoXunit.ShoppingTest">-->
+    <!--<methods>-->
+        <!--<include name="testLogin"/>-->
+        <!--<include name="testLoginAndShopping"/>-->
+        <!--<include name="testDatas"/>-->
+    <!--</methods>-->
+<!--</class>-->
+<!--<class name="DemoXunit.ParamDataTest">-->
+    <!--<methods>-->
+        <!--<parameter name="aa" value="AA"/>-->
+        <!--<parameter name="bb" value="BB"/>-->
+        <!--<include name="testParams"/>-->
+    <!--</methods>-->
+<!--</class>-->
+<!--</classes>-->
