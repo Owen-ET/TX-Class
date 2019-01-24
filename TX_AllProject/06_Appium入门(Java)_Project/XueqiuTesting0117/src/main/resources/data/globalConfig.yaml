@@ -1,0 +1,15 @@
+---
+xueqiu:
+  username: xxxx
+  password: dddd
+appium:
+  app: 1.apk
+  url: http://127.0.0.1:4723/wd/hub
+  wait: 6
+  capabilities:
+    platformName: android
+    deviceName: emulator-5554
+    appPackage: com.xueqiu.android
+    appActivity: .view.WelcomeActivityAlias
+    autoGrantPermissions: true
+    aaa: bbbb
