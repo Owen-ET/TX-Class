@@ -13,3 +13,4 @@ appium:
     appActivity: .view.WelcomeActivityAlias
     autoGrantPermissions: true
     aaa: bbbb
+    ccc: dddd
