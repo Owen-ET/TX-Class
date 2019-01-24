@@ -16,6 +16,7 @@ public class BasePage {
         try{
             return Driver.getCurrentDriver().findElement(locator);
         }catch(Exception e){
+            System.out.println("not found");
             //打印异常log
             e.printStackTrace();
             Driver.getCurrentDriver().findElement(text("下次再说")).click();
