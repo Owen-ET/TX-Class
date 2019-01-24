@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
 import org.junit.jupiter.params.provider.CsvSource;
 import pages.LoginPage;
 import pages.MainPage;
@@ -44,9 +45,12 @@ public class SearchTest {
         assertThat(content,equalTo(searchName));
     }
 
-    @Test
-    void 选择(){
-        ArrayList<String> array = searchPage.search("mi").addSelected();
+
+
+    @ParameterizedTest
+    @CsvFileSource(resources = "/data/SearchTest.csv")
+    void 选择(String keyword){
+        ArrayList<String> array = searchPage.search(keyword).addSelected();
         assertThat(array,hasItems("com.xueqiu.android:id/followed_btn", "com.xueqiu.android:id/follow_btn"));
 
     }

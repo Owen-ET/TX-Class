@@ -2,6 +2,7 @@ package pages;
 
 import com.sun.tools.javac.util.List;
 import driver.Driver;
+import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -41,11 +42,12 @@ public class SearchPage extends BasePage{
     }
 
     public ArrayList<String> addSelected(){
+        // appiumBUG，本来resourceId和resource-id都支持的
         ArrayList<String> array = new ArrayList<String>();
-        WebElement select = find(By.xpath("//*[contains(@resource-id, 'follow') and contains(@resource-id, '_btn')]"));
+        AndroidElement select = find(By.xpath("//*[contains(@resource-id, 'follow') and contains(@resource-id, '_btn')]"));
         array.add(select.getAttribute("resourceId"));
-//        select.click();
-        WebElement select2 = find(By.xpath("//*[contains(@resource-id, 'follow') and contains(@resource-id, '_btn')]"));
+        select.click();
+        AndroidElement select2 = find(By.xpath("//*[contains(@resource-id, 'follow') and contains(@resource-id, '_btn')]"));
         array.add(select2.getAttribute("resourceId"));
         return array;
     }

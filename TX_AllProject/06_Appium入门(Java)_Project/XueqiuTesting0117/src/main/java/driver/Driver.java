@@ -2,6 +2,7 @@ package driver;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
@@ -15,7 +16,7 @@ import java.util.concurrent.TimeUnit;
  */
 
 public class Driver {
-    private static AppiumDriver<WebElement> driver;
+    private static AndroidDriver<AndroidElement> driver;
     // 创造一个静态方法
     public static void start(){
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
@@ -39,7 +40,8 @@ public class Driver {
     }
 
     // 给出一个driver对象,随时给出来一个driver
-    public static AppiumDriver<WebElement> getCurrentDriver(){
+    public static AndroidDriver<AndroidElement> getCurrentDriver(){
+
         return driver;
     }
 }

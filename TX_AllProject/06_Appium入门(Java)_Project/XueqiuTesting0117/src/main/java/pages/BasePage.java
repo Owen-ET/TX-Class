@@ -1,6 +1,7 @@
 package pages;
 
 import driver.Driver;
+import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
@@ -10,7 +11,7 @@ import org.openqa.selenium.WebElement;
  */
 
 public class BasePage {
-    static WebElement find(By locator){
+    static AndroidElement find(By locator){
         try{
             return Driver.getCurrentDriver().findElement(locator);
         }catch(Exception e){
