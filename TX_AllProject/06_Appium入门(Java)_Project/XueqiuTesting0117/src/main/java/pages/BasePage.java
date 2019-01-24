@@ -12,9 +12,12 @@ import org.openqa.selenium.WebElement;
 
 public class BasePage {
     static AndroidElement find(By locator){
+        //todo:只是Demo，更好的根据弹出框列表进行批量检索
         try{
             return Driver.getCurrentDriver().findElement(locator);
         }catch(Exception e){
+            //打印异常log
+            e.printStackTrace();
             Driver.getCurrentDriver().findElement(text("下次再说")).click();
             return Driver.getCurrentDriver().findElement(locator);
         }

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0118d7e-b2d2-4941-b107-f8f8ffe66014" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/SearchTest.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+            <state relative-caret-position="-173">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#850#851#0" expanded="true" />
@@ -53,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="199">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,10 +137,10 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data/SearchTest.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/SearchTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/driver/Driver.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/BasePage.java" />
       </list>
     </option>
   </component>
@@ -247,7 +246,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548297912393" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548299042641" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -375,7 +374,7 @@
       <workItem from="1548222163047" duration="11000" />
       <workItem from="1548222258819" duration="303000" />
       <workItem from="1548222657753" duration="4743000" />
-      <workItem from="1548292035592" duration="3411000" />
+      <workItem from="1548292035592" duration="4555000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1548223024427</created>
@@ -419,13 +418,17 @@
       <option name="project" value="LOCAL" />
       <updated>1548236393119</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="18.1.24对于getAttribute(&quot;resourceId&quot;)的相关修改">
+      <created>1548298182931</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1548298182931</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchTest_选择 - 2019.01.23 at 17h 27m 31s.xml">
-      <configuration name="SearchTest.选择" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SearchTest_选择 - 2019.01.23 at 17h 31m 43s.xml">
       <configuration name="SearchTest.选择" configurationId="JUnit" />
     </history-entry>
@@ -453,9 +456,12 @@
     <history-entry file="SearchTest_选择_(1) - 2019.01.24 at 10h 30m 52s.xml">
       <configuration name="SearchTest.选择 (1)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SearchTest_选择_(1) - 2019.01.24 at 10h 44m 22s.xml">
+      <configuration name="SearchTest.选择 (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53260000" />
+    <option name="totallyTimeSpent" value="54404000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -468,7 +474,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="876" y="23" width="1064" height="745" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30528376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -479,13 +484,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42725882" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42725882" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32746956" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.34303215" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.34303215" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.29107982" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -548,7 +553,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试111" />
     <MESSAGE value="测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+    <MESSAGE value="18.1.24对于getAttribute(&quot;resourceId&quot;)的相关修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="18.1.24对于getAttribute(&quot;resourceId&quot;)的相关修改" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/mainPage/test.java" />
@@ -696,16 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/driver/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
@@ -718,12 +714,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
+        <state relative-caret-position="-173">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#850#851#0" expanded="true" />
             <element signature="e#877#878#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
