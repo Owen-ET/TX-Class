@@ -140,6 +140,7 @@ public class TestXueqiuDemo {
     }
 
 
+    // 封装滑动方法
     public void swipe(double startX, double startY, double endX, double endY) throws InterruptedException {
         double width = driver.manage().window().getSize().width;
         double height = driver.manage().window().getSize().getHeight();
