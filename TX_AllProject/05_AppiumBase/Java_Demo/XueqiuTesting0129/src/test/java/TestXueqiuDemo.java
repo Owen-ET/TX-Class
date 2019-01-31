@@ -6,17 +6,18 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
+import org.aspectj.util.FileUtil;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.ScreenOrientation;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
+import java.io.IOException;
 import java.math.BigDecimal;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -33,7 +34,7 @@ import java.util.concurrent.TimeUnit;
 public class TestXueqiuDemo {
     private static AndroidDriver<AndroidElement> driver;
 
-//    @BeforeClass
+    //@BeforeClass
     public static void beforeClass() throws MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName","android");
@@ -132,24 +133,30 @@ public class TestXueqiuDemo {
     }
 
     @Test
-    public void testScreenshot() throws InterruptedException {
+    public void testScreenshot() throws InterruptedException, IOException {
 
         for (int i=0;i<5;i++){
             swipe(0.8,0.8, 0.4,0.4);
+            // 截图代码
+            FileUtil.copyFile(
+                    driver.getScreenshotAs(OutputType.FILE).getCanonicalFile(),
+                    new File(i + ".png")
+            );
         }
     }
 
 
     // 封装滑动方法
     public void swipe(double startX, double startY, double endX, double endY) throws InterruptedException {
-        double width = driver.manage().window().getSize().width;
-        double height = driver.manage().window().getSize().getHeight();
+//        double width = driver.manage().window().getSize().width;
+//        double height = driver.manage().window().getSize().getHeight();
+        Dimension size = driver.manage().window().getSize();
         Duration duration = Duration.ofSeconds(1);
         TouchAction action1 = new TouchAction(driver);
 
-        action1.press(PointOption.point((int)(width * startY),(int)(height * startY)))
+        action1.press(PointOption.point((int)(size.width * startX),(int)(size.height * startY)))
                 .waitAction(WaitOptions.waitOptions(duration))
-                .moveTo(PointOption.point((int)(width * endX),(int)(height * endY)))
+                .moveTo(PointOption.point((int)(size.width * endX),(int)(size.height * endY)))
                 .release()
                 .perform();
         Thread.sleep(1000);

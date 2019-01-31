@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a41747b-b5ca-459f-b805-bd5501202b04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestXueqiuDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestXueqiuDemo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,17 +22,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+            <state relative-caret-position="106">
+              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="142" column="13" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
+            <state relative-caret-position="143">
+              <caret line="174" selection-start-line="174" selection-end-line="178" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestDemo.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ApiDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="216">
+              <caret line="36" column="54" lean-forward="true" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -75,14 +79,15 @@
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ApiDemo.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="892" />
+    <option name="x" value="389" />
     <option name="y" value="23" />
-    <option name="width" value="1156" />
-    <option name="height" value="768" />
+    <option name="width" value="1659" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -90,7 +95,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,12 +106,6 @@
               <item name="XueqiuTesting0129" type="b2602c69:ProjectViewProjectNode" />
               <item name="XueqiuTesting0129" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XueqiuTesting0129" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XueqiuTesting0129" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="XueqiuTesting0129" type="b2602c69:ProjectViewProjectNode" />
@@ -127,16 +125,17 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../../../install/android-sdk-macosx" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548845917234" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548928451152" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -150,22 +149,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestXueqiuDemo.testScreenshot">
-    <configuration name="TestDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ApiDemo.testToast">
+    <configuration name="ApiDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="XueqiuTesting0129" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDemo" />
+      <option name="MAIN_CLASS_NAME" value="ApiDemo" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestXueqiuDemo.testLogs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApiDemo.testToast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="XueqiuTesting0129" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestXueqiuDemo" />
-      <option name="METHOD_NAME" value="testLogs" />
+      <option name="MAIN_CLASS_NAME" value="ApiDemo" />
+      <option name="METHOD_NAME" value="testToast" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -203,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestXueqiuDemo.testScreenshot" />
-        <item itemvalue="JUnit.TestDemo.test" />
-        <item itemvalue="JUnit.TestXueqiuDemo.testPerformance" />
-        <item itemvalue="JUnit.TestXueqiuDemo.testLogs" />
+        <item itemvalue="JUnit.ApiDemo.testToast" />
         <item itemvalue="JUnit.TestXueqiuDemo.testRotate" />
+        <item itemvalue="JUnit.TestXueqiuDemo.testScreenshot" />
+        <item itemvalue="JUnit.ApiDemo.test" />
+        <item itemvalue="JUnit.TestXueqiuDemo.testPerformance" />
       </list>
     </recent_temporary>
   </component>
@@ -222,50 +221,59 @@
       <option name="presentableId" value="Default" />
       <updated>1548730113069</updated>
       <workItem from="1548730116683" duration="16446000" />
-      <workItem from="1548813958328" duration="19456000" />
+      <workItem from="1548813958328" duration="19639000" />
+      <workItem from="1548898607376" duration="15403000" />
     </task>
+    <task id="LOCAL-00001" summary="修改">
+      <created>1548845944034</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548845944034</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestXueqiuDemo_testScreenshot - 2019.01.30 at 18h 02m 30s.xml">
-      <configuration name="TestXueqiuDemo.testScreenshot" configurationId="JUnit" />
+    <history-entry file="ApiDemo_testToast - 2019.01.31 at 15h 50m 39s.xml">
+      <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestXueqiuDemo_testScreenshot - 2019.01.30 at 18h 09m 52s.xml">
-      <configuration name="TestXueqiuDemo.testScreenshot" configurationId="JUnit" />
+    <history-entry file="ApiDemo_testToast - 2019.01.31 at 15h 52m 08s.xml">
+      <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestXueqiuDemo_testScreenshot - 2019.01.30 at 18h 11m 47s.xml">
-      <configuration name="TestXueqiuDemo.testScreenshot" configurationId="JUnit" />
+    <history-entry file="ApiDemo_testToast - 2019.01.31 at 15h 59m 16s.xml">
+      <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestXueqiuDemo_testScreenshot - 2019.01.30 at 18h 12m 43s.xml">
-      <configuration name="TestXueqiuDemo.testScreenshot" configurationId="JUnit" />
+    <history-entry file="ApiDemo_testToast - 2019.01.31 at 16h 32m 46s.xml">
+      <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDemo_test - 2019.01.30 at 18h 40m 06s.xml">
-      <configuration name="TestDemo.test" configurationId="JUnit" />
+    <history-entry file="ApiDemo_testToast - 2019.01.31 at 16h 33m 06s.xml">
+      <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDemo_test - 2019.01.30 at 18h 41m 31s.xml">
-      <configuration name="TestDemo.test" configurationId="JUnit" />
+    <history-entry file="ApiDemo_testToast - 2019.01.31 at 16h 41m 29s.xml">
+      <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDemo_test - 2019.01.30 at 18h 43m 55s.xml">
-      <configuration name="TestDemo.test" configurationId="JUnit" />
+    <history-entry file="ApiDemo_testToast - 2019.01.31 at 17h 09m 44s.xml">
+      <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDemo_test - 2019.01.30 at 18h 48m 38s.xml">
-      <configuration name="TestDemo.test" configurationId="JUnit" />
+    <history-entry file="ApiDemo_testToast - 2019.01.31 at 17h 11m 11s.xml">
+      <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestXueqiuDemo_testScreenshot - 2019.01.30 at 18h 49m 43s.xml">
-      <configuration name="TestXueqiuDemo.testScreenshot" configurationId="JUnit" />
+    <history-entry file="ApiDemo_testToast - 2019.01.31 at 17h 17m 25s.xml">
+      <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestXueqiuDemo_testScreenshot - 2019.01.30 at 18h 50m 24s.xml">
-      <configuration name="TestXueqiuDemo.testScreenshot" configurationId="JUnit" />
+    <history-entry file="ApiDemo_testToast - 2019.01.31 at 17h 19m 30s.xml">
+      <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35902000" />
+    <option name="totallyTimeSpent" value="51488000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="892" y="23" width="1156" height="768" extended-state="0" />
+    <frame x="389" y="23" width="1659" height="704" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23608617" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16512059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -274,7 +282,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33579883" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33660132" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -285,7 +293,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32988167" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.32988167" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32988167" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -325,19 +333,30 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1-sources.jar!/org/aspectj/lang/annotation/Before.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -390,22 +409,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestDemo.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0-sources.jar!/org/openqa/selenium/Dimension.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="142" column="13" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
+        <state relative-caret-position="143">
+          <caret line="174" selection-start-line="174" selection-end-line="178" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ApiDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="36" column="54" lean-forward="true" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
