@@ -34,7 +34,8 @@ public class ApiDemo {
         capabilities.setCapability("deviceName","emulator-5554");
         capabilities.setCapability("appPackage","com.example.android.apis");
         capabilities.setCapability("appActivity",".ApiDemos");
-        capabilities.setCapability("automationName","Uiautomator2");
+        capabilities.setCapability("automationName","uiautomator2");
+        //capabilities.setCapability("noReset",true);
         //capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, AutomationName.ANDROID_UIAUTOMATOR2);
         // driver实例
         driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
@@ -58,7 +59,7 @@ public class ApiDemo {
             //System.out.println(driver.findElementByClassName("android.widget.Toast").getText());
 
             System.out.println(driver.findElementByXPath("//*[@class='android.widget.Toast']").getText());
-            //System.out.println(driver.getPageSource());
+            System.out.println(driver.getPageSource());
             Thread.sleep(1000);
         }
     }

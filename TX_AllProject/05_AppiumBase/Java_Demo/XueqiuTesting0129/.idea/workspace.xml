@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a41747b-b5ca-459f-b805-bd5501202b04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestXueqiuDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestXueqiuDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApiDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ApiDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ApiDemo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="330">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -31,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="174" selection-start-line="174" selection-end-line="178" selection-end-column="5" />
+            <state relative-caret-position="2420">
+              <caret line="187" column="13" selection-start-line="187" selection-start-column="13" selection-end-line="187" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ApiDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="36" column="54" lean-forward="true" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+            <state relative-caret-position="257">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -67,6 +64,7 @@
       <find>before</find>
       <find>moveTo</find>
       <find>release</find>
+      <find>Clicked popup menu item Search</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -84,10 +82,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="389" />
+    <option name="x" value="958" />
     <option name="y" value="23" />
-    <option name="width" value="1659" />
-    <option name="height" value="704" />
+    <option name="width" value="1090" />
+    <option name="height" value="715" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -95,6 +93,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,15 +124,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../../../install/android-sdk-macosx" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548928451152" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549004769034" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
@@ -223,6 +221,9 @@
       <workItem from="1548730116683" duration="16446000" />
       <workItem from="1548813958328" duration="19639000" />
       <workItem from="1548898607376" duration="15403000" />
+      <workItem from="1548984963983" duration="8178000" />
+      <workItem from="1549007259310" duration="1065000" />
+      <workItem from="1549068790025" duration="4029000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1548845944034</created>
@@ -235,45 +236,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApiDemo_testToast - 2019.01.31 at 15h 50m 39s.xml">
+    <history-entry file="ApiDemo_testToast - 2019.02.02 at 10h 23m 55s.xml">
       <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_testToast - 2019.01.31 at 15h 52m 08s.xml">
+    <history-entry file="ApiDemo_testToast - 2019.02.02 at 10h 26m 08s.xml">
       <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_testToast - 2019.01.31 at 15h 59m 16s.xml">
+    <history-entry file="ApiDemo_testToast - 2019.02.02 at 11h 04m 28s.xml">
       <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_testToast - 2019.01.31 at 16h 32m 46s.xml">
+    <history-entry file="ApiDemo_testToast - 2019.02.02 at 13h 42m 06s.xml">
       <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_testToast - 2019.01.31 at 16h 33m 06s.xml">
+    <history-entry file="ApiDemo_testToast - 2019.02.02 at 13h 56m 55s.xml">
       <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_testToast - 2019.01.31 at 16h 41m 29s.xml">
+    <history-entry file="ApiDemo_testToast - 2019.02.02 at 13h 58m 29s.xml">
       <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_testToast - 2019.01.31 at 17h 09m 44s.xml">
+    <history-entry file="ApiDemo_testToast - 2019.02.02 at 14h 32m 44s.xml">
       <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_testToast - 2019.01.31 at 17h 11m 11s.xml">
+    <history-entry file="ApiDemo_testToast - 2019.02.02 at 14h 37m 56s.xml">
       <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_testToast - 2019.01.31 at 17h 17m 25s.xml">
+    <history-entry file="ApiDemo_testToast - 2019.02.02 at 14h 38m 35s.xml">
       <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_testToast - 2019.01.31 at 17h 19m 30s.xml">
+    <history-entry file="ApiDemo_testToast - 2019.02.02 at 14h 41m 28s.xml">
       <configuration name="ApiDemo.testToast" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51488000" />
+    <option name="totallyTimeSpent" value="64760000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="389" y="23" width="1659" height="704" extended-state="0" />
+    <frame x="958" y="23" width="1090" height="715" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16512059" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14885496" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -282,7 +283,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33660132" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3306581" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -418,15 +419,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="330">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="174" selection-start-line="174" selection-end-line="178" selection-end-column="5" />
+        <state relative-caret-position="2420">
+          <caret line="187" column="13" selection-start-line="187" selection-start-column="13" selection-end-line="187" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -435,8 +436,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ApiDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="36" column="54" lean-forward="true" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
+        <state relative-caret-position="257">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
