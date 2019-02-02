@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a41747b-b5ca-459f-b805-bd5501202b04" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ApiDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ApiDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ApiDemo.class" afterDir="false" />
-    </list>
+    <list default="true" id="6a41747b-b5ca-459f-b805-bd5501202b04" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2420">
+            <state relative-caret-position="2415">
               <caret line="187" column="13" selection-start-line="187" selection-start-column="13" selection-end-line="187" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -41,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ApiDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="257">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -93,7 +89,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -124,6 +119,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,6 +220,7 @@
       <workItem from="1548984963983" duration="8178000" />
       <workItem from="1549007259310" duration="1065000" />
       <workItem from="1549068790025" duration="4029000" />
+      <workItem from="1549098495662" duration="407000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1548845944034</created>
@@ -268,13 +265,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64760000" />
+    <option name="totallyTimeSpent" value="65167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="958" y="23" width="1090" height="715" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14885496" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15171756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -426,7 +422,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2420">
+        <state relative-caret-position="2415">
           <caret line="187" column="13" selection-start-line="187" selection-start-column="13" selection-end-line="187" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -437,7 +433,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ApiDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
