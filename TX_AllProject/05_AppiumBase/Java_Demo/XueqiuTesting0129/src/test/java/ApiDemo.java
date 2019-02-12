@@ -19,6 +19,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -27,7 +28,7 @@ public class ApiDemo {
 
     private static AndroidDriver<AndroidElement> driver;
 
-    @BeforeClass
+    //@BeforeClass
     public static void beforeClass() throws MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName","android");
@@ -40,6 +41,22 @@ public class ApiDemo {
         // driver实例
         driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
         driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+    }
+
+
+    @BeforeClass
+    public static void before() throws MalformedURLException {
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("platformName","android");
+        capabilities.setCapability("deviceName","emulator-5554");
+        capabilities.setCapability("appPackage","com.xueqiu.android");
+        capabilities.setCapability("appActivity",".view.WelcomeActivityAlias");
+//        capabilities.setCapability("automationName","uiautomator2");
+
+        // driver实例
+        driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+        beforeFun();
     }
 
     @Test
@@ -61,6 +78,18 @@ public class ApiDemo {
             System.out.println(driver.findElementByXPath("//*[@class='android.widget.Toast']").getText());
             System.out.println(driver.getPageSource());
             Thread.sleep(1000);
+        }
+    }
+
+
+    @Test
+    public void webview(){
+        driver.findElement(By.xpath("//android.widget.TextView[@text='沪深' and @resource-id='com.xueqiu.android:id/button_text']")).click();
+        driver.findElementByAccessibilityId("立即开户").click();
+        driver.findElementByAccessibilityId("开始").click();
+        locate("//[@text='开启权限']").click();
+        for (int i=0;i<2;i++){
+            locate("//[@text='ALLOW']").click();
         }
     }
 
@@ -91,6 +120,37 @@ public class ApiDemo {
     public WebDriverWait waitTime(int time){
         WebDriverWait wait = new WebDriverWait(driver,time);
         return wait;
+    }
+
+
+    // 封装查找元素方法
+    public static WebElement locate(String locator){
+        if (locator.matches("\\/\\/.*")){
+            return driver.findElement(By.xpath(locator));
+        }else{
+            return driver.findElement(By.id(locator));
+        }
+    }
+
+    // 前置步骤封装
+    public static void beforeFun(){
+        locate("//*[@text='开启']").click();
+        for (int i=0;i<2;i++){
+            locate("com.android.packageinstaller:id/permission_allow_button").click();
+        }
+        String loc = "//*[@text='好的']";
+        try {
+            boolean bo = locate(loc).isEnabled();
+            if (bo){
+                locate(loc).click();
+                locate("com.android.packageinstaller:id/permission_allow_button").click();
+            }else {
+                return;
+            }
+        }catch (Exception e) {
+//            e.printStackTrace();
+            System.out.println("没有定位，继续执行！");
+        }
     }
 
 }
