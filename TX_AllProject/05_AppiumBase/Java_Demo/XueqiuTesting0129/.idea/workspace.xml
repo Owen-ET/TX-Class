@@ -28,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="165" selection-start-line="165" selection-end-line="172" selection-end-column="5" />
+            <state relative-caret-position="78">
+              <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ApiDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-563">
-              <caret line="89" column="11" lean-forward="true" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
+            <state relative-caret-position="204">
+              <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -65,6 +65,7 @@
       <find>moveTo</find>
       <find>release</find>
       <find>Clicked popup menu item Search</find>
+      <find>立即开户</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="983" />
     <option name="y" value="23" />
     <option name="width" value="1065" />
@@ -94,7 +95,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,6 +106,12 @@
               <item name="XueqiuTesting0129" type="b2602c69:ProjectViewProjectNode" />
               <item name="XueqiuTesting0129" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XueqiuTesting0129" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XueqiuTesting0129" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="XueqiuTesting0129" type="b2602c69:ProjectViewProjectNode" />
@@ -124,13 +130,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../../../install/android-sdk-macosx" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549962294506" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550136915824" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
@@ -147,7 +154,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ApiDemo.webview">
+  <component name="RunManager" selected="JUnit.ApiDemo.context">
+    <configuration name="ApiDemo.context" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XueqiuTesting0129" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ApiDemo" />
+      <option name="METHOD_NAME" value="context" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiDemo.testToast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="XueqiuTesting0129" />
       <option name="PACKAGE_NAME" value="" />
@@ -168,21 +185,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestXueqiuDemo.testRotate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestXueqiuDemo.demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="XueqiuTesting0129" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestXueqiuDemo" />
-      <option name="METHOD_NAME" value="testRotate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestXueqiuDemo.testScreenshot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="XueqiuTesting0129" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestXueqiuDemo" />
-      <option name="METHOD_NAME" value="testScreenshot" />
+      <option name="METHOD_NAME" value="demo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -200,11 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApiDemo.webview" />
+        <item itemvalue="JUnit.ApiDemo.context" />
+        <item itemvalue="JUnit.TestXueqiuDemo.demo" />
         <item itemvalue="JUnit.ApiDemo.testToast" />
+        <item itemvalue="JUnit.ApiDemo.webview" />
         <item itemvalue="JUnit.TestXueqiuDemo.testWait2" />
-        <item itemvalue="JUnit.TestXueqiuDemo.testRotate" />
-        <item itemvalue="JUnit.TestXueqiuDemo.testScreenshot" />
       </list>
     </recent_temporary>
   </component>
@@ -226,6 +233,8 @@
       <workItem from="1549068790025" duration="4029000" />
       <workItem from="1549098495662" duration="637000" />
       <workItem from="1549931795384" duration="6730000" />
+      <workItem from="1550023682515" duration="2283000" />
+      <workItem from="1550127571060" duration="6018000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1548845944034</created>
@@ -238,44 +247,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApiDemo_testToast - 2019.02.12 at 15h 49m 22s.xml">
-      <configuration name="ApiDemo.testToast" configurationId="JUnit" />
+    <history-entry file="ApiDemo_context - 2019.02.14 at 16h 10m 52s.xml">
+      <configuration name="ApiDemo.context" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_testToast - 2019.02.12 at 15h 52m 37s.xml">
-      <configuration name="ApiDemo.testToast" configurationId="JUnit" />
+    <history-entry file="ApiDemo_context - 2019.02.14 at 17h 18m 04s.xml">
+      <configuration name="ApiDemo.context" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_testToast - 2019.02.12 at 15h 55m 30s.xml">
-      <configuration name="ApiDemo.testToast" configurationId="JUnit" />
+    <history-entry file="ApiDemo_context - 2019.02.14 at 17h 19m 04s.xml">
+      <configuration name="ApiDemo.context" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_testToast - 2019.02.12 at 15h 57m 24s.xml">
-      <configuration name="ApiDemo.testToast" configurationId="JUnit" />
+    <history-entry file="ApiDemo_context - 2019.02.14 at 17h 20m 00s.xml">
+      <configuration name="ApiDemo.context" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_webview - 2019.02.12 at 16h 45m 41s.xml">
-      <configuration name="ApiDemo.webview" configurationId="JUnit" />
+    <history-entry file="ApiDemo_context - 2019.02.14 at 17h 21m 23s.xml">
+      <configuration name="ApiDemo.context" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_webview - 2019.02.12 at 16h 48m 14s.xml">
-      <configuration name="ApiDemo.webview" configurationId="JUnit" />
+    <history-entry file="ApiDemo_context - 2019.02.14 at 17h 23m 01s.xml">
+      <configuration name="ApiDemo.context" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_webview - 2019.02.12 at 16h 50m 46s.xml">
-      <configuration name="ApiDemo.webview" configurationId="JUnit" />
+    <history-entry file="ApiDemo_context - 2019.02.14 at 17h 23m 35s.xml">
+      <configuration name="ApiDemo.context" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_webview - 2019.02.12 at 16h 51m 36s.xml">
-      <configuration name="ApiDemo.webview" configurationId="JUnit" />
+    <history-entry file="ApiDemo_context - 2019.02.14 at 17h 26m 01s.xml">
+      <configuration name="ApiDemo.context" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_webview - 2019.02.12 at 16h 53m 31s.xml">
-      <configuration name="ApiDemo.webview" configurationId="JUnit" />
+    <history-entry file="ApiDemo_context - 2019.02.14 at 17h 26m 27s.xml">
+      <configuration name="ApiDemo.context" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_webview - 2019.02.12 at 17h 00m 47s.xml">
-      <configuration name="ApiDemo.webview" configurationId="JUnit" />
+    <history-entry file="ApiDemo_context - 2019.02.14 at 17h 28m 50s.xml">
+      <configuration name="ApiDemo.context" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72127000" />
+    <option name="totallyTimeSpent" value="80428000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="983" y="23" width="1065" height="734" extended-state="1" />
+    <frame x="983" y="23" width="1065" height="734" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15835777" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16422288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -284,7 +294,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34890965" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3707165" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39875388" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,18 +437,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="165" selection-start-line="165" selection-end-line="172" selection-end-column="5" />
+        <state relative-caret-position="78">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/6.1.0/java-client-6.1.0-sources.jar!/io/appium/java_client/AppiumDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="216" column="28" selection-start-line="216" selection-start-column="28" selection-end-line="216" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ApiDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-563">
-          <caret line="89" column="11" lean-forward="true" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
+        <state relative-caret-position="204">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />

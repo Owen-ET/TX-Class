@@ -52,6 +52,7 @@ public class ApiDemo {
         capabilities.setCapability("appPackage","com.xueqiu.android");
         capabilities.setCapability("appActivity",".view.WelcomeActivityAlias");
 //        capabilities.setCapability("automationName","uiautomator2");
+//        capabilities.setCapability("chromedriverExecutableDir","");
 
         // driver实例
         driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
@@ -84,13 +85,39 @@ public class ApiDemo {
 
     @Test
     public void webview(){
-        driver.findElement(By.xpath("//android.widget.TextView[@text='沪深' and @resource-id='com.xueqiu.android:id/button_text']")).click();
+        locate("//*[@text='沪深' and @resource-id='com.xueqiu.android:id/button_text']").click();
         driver.findElementByAccessibilityId("立即开户").click();
         driver.findElementByAccessibilityId("开始").click();
-        locate("//[@text='开启权限']").click();
+        locate("com.xueqiu.android:id/md_buttonDefaultPositive").click();
         for (int i=0;i<2;i++){
-            locate("//[@text='ALLOW']").click();
+            locate("com.android.packageinstaller:id/permission_allow_button").click();
         }
+    }
+
+    @Test
+    public void context() throws InterruptedException {
+        for (Object c : driver.getContextHandles()){
+            System.out.println(c.toString());
+        }
+        System.out.println(driver.getPageSource());
+        locate("//*[@text='沪深' and @resource-id='com.xueqiu.android:id/button_text']").click();
+        System.out.println(" 再打印");
+        for (Object c : driver.getContextHandles()){
+            System.out.println(c.toString());
+        }
+        Thread.sleep(3000);
+        for (Object c : driver.getContextHandles()){
+            System.out.println(c.toString());
+        }
+
+        driver.context("WEBVIEW_chrome");
+        System.out.println(driver.getPageSource());
+
+
+        //locate("com.xueqiu.android:id/md_buttonDefaultPositive").click();
+        //for (int i=0;i<2;i++){
+        //    locate("com.android.packageinstaller:id/permission_allow_button").click();
+        //}
     }
 
 
