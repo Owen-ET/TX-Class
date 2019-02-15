@@ -10,6 +10,7 @@ import io.appium.java_client.remote.AutomationName;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
+import javafx.scene.web.WebView;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import java.net.MalformedURLException;
@@ -49,10 +50,11 @@ public class ApiDemo {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName","android");
         capabilities.setCapability("deviceName","emulator-5554");
+        //capabilities.setCapability("deviceName","608ad0fe");
         capabilities.setCapability("appPackage","com.xueqiu.android");
         capabilities.setCapability("appActivity",".view.WelcomeActivityAlias");
 //        capabilities.setCapability("automationName","uiautomator2");
-//        capabilities.setCapability("chromedriverExecutableDir","");
+        capabilities.setCapability("chromedriverExecutableDir","");
 
         // driver实例
         driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
@@ -99,7 +101,7 @@ public class ApiDemo {
         for (Object c : driver.getContextHandles()){
             System.out.println(c.toString());
         }
-        System.out.println(driver.getPageSource());
+        //System.out.println(driver.getPageSource());
         locate("//*[@text='沪深' and @resource-id='com.xueqiu.android:id/button_text']").click();
         System.out.println(" 再打印");
         for (Object c : driver.getContextHandles()){
@@ -110,8 +112,8 @@ public class ApiDemo {
             System.out.println(c.toString());
         }
 
-        driver.context("WEBVIEW_chrome");
-        System.out.println(driver.getPageSource());
+        //driver.context("WEBVIEW_com.android.browser");
+        //System.out.println(driver.getPageSource());
 
 
         //locate("com.xueqiu.android:id/md_buttonDefaultPositive").click();
@@ -119,6 +121,9 @@ public class ApiDemo {
         //    locate("com.android.packageinstaller:id/permission_allow_button").click();
         //}
     }
+
+    //
+
 
 
     public AndroidElement lacate(String lacator){
