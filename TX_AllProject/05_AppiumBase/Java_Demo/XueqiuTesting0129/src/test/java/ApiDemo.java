@@ -164,7 +164,7 @@ public class ApiDemo {
         }
     }
 
-    // 前置步骤封装
+    // 前置步骤封装a
     public static void beforeFun(){
         locate("//*[@text='开启']").click();
         for (int i=0;i<2;i++){
