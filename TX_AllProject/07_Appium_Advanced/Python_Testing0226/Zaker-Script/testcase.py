@@ -56,12 +56,17 @@ class ZakerTest(unittest.TestCase):
         # self.driver.press_keycode(66)
 
         sleep(5)
+        # 有误
         # self.driver.find_element_by_android_uiautomator(u'(new UiScrollable(new UiSelector().className("android.widget.ListView").scrollable(true))).scrollIntoView(new UiObject(new UiSelector().textContains("环球网")))')
+
+        # 正确：uiautomator
         self.driver.find_element_by_android_uiautomator(u'new UiSelector().textContains("新华网")').click()
 
 
     def public(self):
+        # 常规写法
         # self.driver.find_element_by_id("com.myzaker.ZAKER_Phone:id/launcher_grant_next_btn").click()
+        # 正确：uiautomator
         self.driver.find_element_by_android_uiautomator(u'new UiSelector().resourceId("com.myzaker.ZAKER_Phone:id/launcher_grant_next_btn")').click()
         for i in range(3):
             # self.driver.find_element_by_id("com.android.packageinstaller:id/permission_allow_button").click()
