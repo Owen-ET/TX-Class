@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6a41747b-b5ca-459f-b805-bd5501202b04" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ApiDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ApiDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ApiDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06_AppiumPrimary_JavaProject/XueqiuTesting0117/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06_AppiumPrimary_JavaProject/XueqiuTesting0117/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../07_Appium_Advanced/Python_Testing0226/Zaker-Script/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../07_Appium_Advanced/Python_Testing0226/Zaker-Script/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="186">
@@ -25,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="55" column="65" selection-start-line="55" selection-start-column="65" selection-end-line="55" selection-end-column="65" />
+            <state relative-caret-position="31">
+              <caret line="165" column="7" selection-start-line="165" selection-start-column="7" selection-end-line="165" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ApiDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
+            <state relative-caret-position="132">
               <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -78,16 +79,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestDemo.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/ApiDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="983" />
-    <option name="y" value="23" />
-    <option name="width" value="1065" />
-    <option name="height" value="734" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1264" />
+    <option name="y" value="514" />
+    <option name="width" value="784" />
+    <option name="height" value="633" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -96,7 +97,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,13 +132,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../../../install/android-sdk-macosx" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550217075568" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551344459672" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
@@ -155,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ApiDemo.context">
+  <component name="RunManager" selected="JUnit.TestXueqiuDemo.testWait">
     <configuration name="ApiDemo.context" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="XueqiuTesting0129" />
       <option name="PACKAGE_NAME" value="" />
@@ -208,9 +209,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestXueqiuDemo.testWait" />
         <item itemvalue="JUnit.ApiDemo.context" />
         <item itemvalue="JUnit.ApiDemo.webview" />
-        <item itemvalue="JUnit.TestXueqiuDemo.testWait" />
         <item itemvalue="JUnit.TestXueqiuDemo.demo" />
         <item itemvalue="JUnit.ApiDemo.testToast" />
       </list>
@@ -238,6 +239,7 @@
       <workItem from="1550127571060" duration="6258000" />
       <workItem from="1550191227111" duration="10749000" />
       <workItem from="1550214222702" duration="1930000" />
+      <workItem from="1551341746474" duration="2614000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1548845944034</created>
@@ -250,21 +252,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApiDemo_webview - 2019.02.15 at 15h 05m 22s.xml">
-      <configuration name="ApiDemo.webview" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApiDemo_webview - 2019.02.15 at 15h 07m 14s.xml">
-      <configuration name="ApiDemo.webview" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApiDemo_webview - 2019.02.15 at 15h 08m 28s.xml">
-      <configuration name="ApiDemo.webview" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApiDemo_webview - 2019.02.15 at 15h 09m 13s.xml">
-      <configuration name="ApiDemo.webview" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApiDemo_webview - 2019.02.15 at 15h 14m 17s.xml">
-      <configuration name="ApiDemo.webview" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ApiDemo_webview - 2019.02.15 at 15h 15m 06s.xml">
       <configuration name="ApiDemo.webview" configurationId="JUnit" />
     </history-entry>
@@ -280,15 +267,30 @@
     <history-entry file="ApiDemo_context - 2019.02.15 at 15h 36m 16s.xml">
       <configuration name="ApiDemo.context" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestXueqiuDemo_testWait - 2019.02.28 at 16h 25m 51s.xml">
+      <configuration name="TestXueqiuDemo.testWait" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestXueqiuDemo_testWait - 2019.02.28 at 16h 29m 09s.xml">
+      <configuration name="TestXueqiuDemo.testWait" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestXueqiuDemo_testWait - 2019.02.28 at 16h 29m 32s.xml">
+      <configuration name="TestXueqiuDemo.testWait" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestXueqiuDemo_testWait - 2019.02.28 at 16h 40m 17s.xml">
+      <configuration name="TestXueqiuDemo.testWait" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestXueqiuDemo_testWait - 2019.02.28 at 16h 42m 30s.xml">
+      <configuration name="TestXueqiuDemo.testWait" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93347000" />
+    <option name="totallyTimeSpent" value="95961000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="983" y="23" width="1065" height="734" extended-state="1" />
+    <frame x="1264" y="515" width="784" height="633" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17008798" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23854448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -297,7 +299,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.317757" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43253234" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39875388" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -445,19 +447,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="55" column="65" selection-start-line="55" selection-start-column="65" selection-end-line="55" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="186">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ApiDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
+        <state relative-caret-position="132">
           <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -466,10 +465,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state relative-caret-position="31">
+          <caret line="165" column="7" selection-start-line="165" selection-start-column="7" selection-end-line="165" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -163,12 +163,21 @@ public class TestXueqiuDemo {
     }
 
 
+    // 2.28号，变更
     // 封装查找元素方法
     public static WebElement locate(String locator){
-        if (locator.matches("\\/\\/.*")){
-            return driver.findElement(By.xpath(locator));
-        }else{
-            return driver.findElement(By.id(locator));
+        try {
+            if (locator.matches("\\/\\/.*")){
+                return driver.findElement(By.xpath(locator));
+            }else{
+                return driver.findElement(By.id(locator));
+            }
+        }finally {
+            //System.out.println(driver.getPageSource());
+            for (AndroidElement e : driver.findElementsByXPath("//*")){
+                //System.out.println(e.getTagName());
+                System.out.println(e.getText());
+            }
         }
     }
 
