@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a41747b-b5ca-459f-b805-bd5501202b04" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestXueqiuDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestXueqiuDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05_AppiumBase/Java_Demo/XueqiuTesting0129/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05_AppiumBase/Java_Demo/XueqiuTesting0129/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05_AppiumBase/Java_Demo/XueqiuTesting0129/target/test-classes/TestXueqiuDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../05_AppiumBase/Java_Demo/XueqiuTesting0129/target/test-classes/TestXueqiuDemo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,6 +12,60 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/testcase/搜索Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/utils/AppDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/pages/Page雪球首页.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/pages/Page搜索.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,24 +85,29 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/ApiDemo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageObject/pages/Page自选.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageObject/pages/Page雪球首页.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageObject/utils/AppDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageObject/pages/Page搜索.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pageObject/testcase/搜索Test.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="961" />
-    <option name="y" value="508" />
-    <option name="width" value="784" />
-    <option name="height" value="633" />
+    <option name="x" value="1273" />
+    <option name="y" value="504" />
+    <option name="width" value="775" />
+    <option name="height" value="638" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -56,53 +115,94 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="XueqiuTesting0129" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XueqiuTesting0129" type="462c0819:PsiDirectoryNode" />
+              <item name="XueqiuTesting0301" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XueqiuTesting0301" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="XueqiuTesting0129" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XueqiuTesting0129" type="462c0819:PsiDirectoryNode" />
+              <item name="XueqiuTesting0301" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XueqiuTesting0301" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="XueqiuTesting0129" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XueqiuTesting0129" type="462c0819:PsiDirectoryNode" />
+              <item name="XueqiuTesting0301" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XueqiuTesting0301" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="XueqiuTesting0129" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XueqiuTesting0129" type="462c0819:PsiDirectoryNode" />
+              <item name="XueqiuTesting0301" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XueqiuTesting0301" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="XueqiuTesting0129" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XueqiuTesting0129" type="462c0819:PsiDirectoryNode" />
+              <item name="XueqiuTesting0301" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XueqiuTesting0301" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XueqiuTesting0301" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XueqiuTesting0301" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pageObject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XueqiuTesting0301" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XueqiuTesting0301" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pageObject" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XueqiuTesting0301" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XueqiuTesting0301" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pageObject" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XueqiuTesting0301" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XueqiuTesting0301" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pageObject" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../../../install/android-sdk-macosx" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551345182735" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551432317760" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -116,37 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestXueqiuDemo.testWait">
-    <configuration name="ApiDemo.context" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="XueqiuTesting0129" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ApiDemo" />
-      <option name="METHOD_NAME" value="context" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiDemo.testToast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="XueqiuTesting0129" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ApiDemo" />
-      <option name="METHOD_NAME" value="testToast" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ApiDemo.webview" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="XueqiuTesting0129" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ApiDemo" />
-      <option name="METHOD_NAME" value="webview" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.搜索Test.search2">
     <configuration name="TestXueqiuDemo.demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="XueqiuTesting0129" />
       <option name="PACKAGE_NAME" value="" />
@@ -167,13 +237,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestXueqiuDemo.testWait2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XueqiuTesting0129" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestXueqiuDemo" />
+      <option name="METHOD_NAME" value="testWait2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="搜索Test.search" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XueqiuTesting0129" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pageObject.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pageObject.testcase" />
+      <option name="MAIN_CLASS_NAME" value="pageObject.testcase.搜索Test" />
+      <option name="METHOD_NAME" value="search" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="搜索Test.search2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="XueqiuTesting0129" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pageObject.testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pageObject.testcase" />
+      <option name="MAIN_CLASS_NAME" value="pageObject.testcase.搜索Test" />
+      <option name="METHOD_NAME" value="search2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestXueqiuDemo.testWait" />
-        <item itemvalue="JUnit.ApiDemo.context" />
-        <item itemvalue="JUnit.ApiDemo.webview" />
-        <item itemvalue="JUnit.TestXueqiuDemo.demo" />
-        <item itemvalue="JUnit.ApiDemo.testToast" />
+        <item itemvalue="JUnit.搜索Test.search2" />
+        <item itemvalue="JUnit.搜索Test.search" />
+        <item itemvalue="JUnit.TestXueqiuDemo.testWait2" />
       </list>
     </recent_temporary>
   </component>
@@ -200,6 +310,7 @@
       <workItem from="1550191227111" duration="10749000" />
       <workItem from="1550214222702" duration="1930000" />
       <workItem from="1551341746474" duration="3244000" />
+      <workItem from="1551410316012" duration="11057000" />
     </task>
     <task id="LOCAL-00001" summary="修改">
       <created>1548845944034</created>
@@ -219,44 +330,44 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApiDemo_webview - 2019.02.15 at 15h 15m 06s.xml">
-      <configuration name="ApiDemo.webview" configurationId="JUnit" />
+    <history-entry file="搜索Test_search - 2019.03.01 at 15h 56m 26s.xml">
+      <configuration name="搜索Test.search" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_webview - 2019.02.15 at 15h 15m 39s.xml">
-      <configuration name="ApiDemo.webview" configurationId="JUnit" />
+    <history-entry file="搜索Test_search - 2019.03.01 at 16h 05m 44s.xml">
+      <configuration name="搜索Test.search" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_context - 2019.02.15 at 15h 15m 48s.xml">
-      <configuration name="ApiDemo.context" configurationId="JUnit" />
+    <history-entry file="搜索Test_search - 2019.03.01 at 16h 20m 43s.xml">
+      <configuration name="搜索Test.search" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_context - 2019.02.15 at 15h 16m 23s.xml">
-      <configuration name="ApiDemo.context" configurationId="JUnit" />
+    <history-entry file="搜索Test_search - 2019.03.01 at 16h 21m 01s.xml">
+      <configuration name="搜索Test.search" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApiDemo_context - 2019.02.15 at 15h 36m 16s.xml">
-      <configuration name="ApiDemo.context" configurationId="JUnit" />
+    <history-entry file="搜索Test_search - 2019.03.01 at 16h 21m 28s.xml">
+      <configuration name="搜索Test.search" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestXueqiuDemo_testWait - 2019.02.28 at 16h 25m 51s.xml">
-      <configuration name="TestXueqiuDemo.testWait" configurationId="JUnit" />
+    <history-entry file="搜索Test_search - 2019.03.01 at 17h 01m 23s.xml">
+      <configuration name="搜索Test.search" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestXueqiuDemo_testWait - 2019.02.28 at 16h 29m 09s.xml">
-      <configuration name="TestXueqiuDemo.testWait" configurationId="JUnit" />
+    <history-entry file="搜索Test_search - 2019.03.01 at 17h 01m 58s.xml">
+      <configuration name="搜索Test.search" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestXueqiuDemo_testWait - 2019.02.28 at 16h 29m 32s.xml">
-      <configuration name="TestXueqiuDemo.testWait" configurationId="JUnit" />
+    <history-entry file="搜索Test_search2 - 2019.03.01 at 17h 14m 30s.xml">
+      <configuration name="搜索Test.search2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestXueqiuDemo_testWait - 2019.02.28 at 16h 40m 17s.xml">
-      <configuration name="TestXueqiuDemo.testWait" configurationId="JUnit" />
+    <history-entry file="搜索Test_search2 - 2019.03.01 at 17h 16m 00s.xml">
+      <configuration name="搜索Test.search2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestXueqiuDemo_testWait - 2019.02.28 at 16h 42m 30s.xml">
-      <configuration name="TestXueqiuDemo.testWait" configurationId="JUnit" />
+    <history-entry file="搜索Test_search2 - 2019.03.01 at 17h 17m 33s.xml">
+      <configuration name="搜索Test.search2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96591000" />
+    <option name="totallyTimeSpent" value="107648000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="961" y="508" width="784" height="633" extended-state="0" />
+    <frame x="1273" y="504" width="775" height="638" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23854448" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3328786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -265,7 +376,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32902032" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37179488" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39875388" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -414,16 +525,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ApiDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="1470">
           <caret line="98" column="9" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -432,10 +536,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/pages/Page自选.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-443">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestXueqiuDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="165" column="7" selection-start-line="165" selection-start-column="7" selection-end-line="165" selection-end-column="15" />
+        <state relative-caret-position="89">
+          <caret line="56" column="8" lean-forward="true" selection-start-line="56" selection-start-column="8" selection-end-line="57" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/utils/AppDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/pages/Page雪球首页.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/pages/Page搜索.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pageObject/testcase/搜索Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
