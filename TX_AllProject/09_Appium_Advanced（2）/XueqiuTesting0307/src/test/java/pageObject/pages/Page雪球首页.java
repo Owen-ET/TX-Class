@@ -14,6 +14,8 @@ public class Page雪球首页 {
     By home_search = By.id("home_search");
     String 自选 = "//*[@text='自选']";
     By 自选_page = By.xpath(自选);
+    By 我的_page = By.id("user_profile_icon");
+
 
     // 进入搜索页面
     public Page搜索 enterSearch(){
@@ -26,5 +28,11 @@ public class Page雪球首页 {
         Functions.xwait(自选);
         AppDriver.driver.findElement(自选_page).click();
         return new Page自选();
+    }
+
+    // 进入我的页面
+    public Page我的 enter我的(){
+        AppDriver.driver.findElement(我的_page).click();
+        return new Page我的();
     }
 }
