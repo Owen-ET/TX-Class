@@ -13,7 +13,15 @@ public class MainPage extends BasePage{
     By contact = byText("通讯录");
 
     public ContactPage gotoContact(){
-        click(contact);
+        click("通讯录");
         return new ContactPage();
+    }
+
+    static MainPage mainpage;
+    public static MainPage getInstance(){
+        if (mainpage==null){
+            mainpage= new MainPage();
+        }
+        return mainpage;
     }
 }

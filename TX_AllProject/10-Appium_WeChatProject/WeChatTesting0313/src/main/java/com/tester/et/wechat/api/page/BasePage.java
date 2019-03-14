@@ -39,4 +39,9 @@ public class BasePage {
     public By byText(String text){
         return By.xpath("//*[@text='"+ text +"']");
     }
+
+    // 获取属性
+    public String attribute(By by,String name){
+        return findElement(by).getAttribute(name);
+    }
 }

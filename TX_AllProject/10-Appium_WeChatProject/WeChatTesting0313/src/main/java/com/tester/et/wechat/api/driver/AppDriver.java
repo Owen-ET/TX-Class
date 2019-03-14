@@ -8,6 +8,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author zc
@@ -35,8 +36,12 @@ public class AppDriver {
         capabilities.setCapability("autoGrantPermissions",true);
         // 数据不重置
         capabilities.setCapability("noReset",true);
+        // 重置使用unicode键盘
+        capabilities.setCapability("unicodeKeyboard",true);
+        capabilities.setCapability("resetKeyboard",true);
 
         appiumDriver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
+        appiumDriver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
     }
 
     // 追加一个方法封装，定位一个元素
