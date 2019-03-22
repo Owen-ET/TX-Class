@@ -10,7 +10,7 @@ import org.openqa.selenium.By;
  */
 
 public class ContactPage extends BasePage {
-    By manage = By.id("e0f");
+    By manage = By.id("e9h");
 
 
     public ContactManagePage gotoManage(){

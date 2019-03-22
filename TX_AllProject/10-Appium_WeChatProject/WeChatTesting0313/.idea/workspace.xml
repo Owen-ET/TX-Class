@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3c60ab19-e588-4822-9cdb-ac5b6b3ebd0f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../09_Appium_Advanced（2）/XueqiuTesting0307/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../09_Appium_Advanced（2）/XueqiuTesting0307/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09_Appium_Advanced（2）/XueqiuTesting0307/target/test-classes/xueqiu6/utils/AppDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../09_Appium_Advanced（2）/XueqiuTesting0307/target/test-classes/xueqiu6/utils/AppDriver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/driver/AppDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/driver/AppDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/contact/ContactManagePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/contact/ContactManagePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/contact/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/contact/ContactPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/tester/et/wechat/api/page/contact/ContactManagePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/tester/et/wechat/api/page/contact/ContactManagePageTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,11 +22,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/driver/AppDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
+            <state relative-caret-position="282">
               <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1356#1357#0" expanded="true" />
+                <element signature="e#1609#1610#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="105">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -51,17 +49,17 @@
                 <element signature="e#843#844#0" expanded="true" />
                 <element signature="e#901#902#0" expanded="true" />
                 <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#990#991#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/contact/ContactPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            <state relative-caret-position="60">
+              <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/testcase/BaseTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="135">
               <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -81,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/tester/et/wechat/api/page/contact/ContactManagePageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="166">
+              <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="135">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -108,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/contact/ContactManagePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="161">
+              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,20 +133,20 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/driver/AppDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/testcase/BaseTestCase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/contact/ContactManagePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/contact/ContactPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/driver/AppDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tester/et/wechat/api/page/contact/ContactManagePageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/contact/ContactPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/contact/ContactManagePage.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1021" />
-    <option name="y" value="398" />
-    <option name="width" value="988" />
-    <option name="height" value="754" />
+    <option name="x" value="908" />
+    <option name="y" value="518" />
+    <option name="width" value="1140" />
+    <option name="height" value="634" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -156,6 +154,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,15 +251,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../../install/android-sdk-macosx" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552555510553" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553240812860" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -285,7 +283,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ContactManagePageTest.addDepartment">
+    <configuration name="ContactManagePageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WeChatTesting0313" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tester.et.wechat.api.page.contact.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tester.et.wechat.api.page.contact" />
+      <option name="MAIN_CLASS_NAME" value="com.tester.et.wechat.api.page.contact.ContactManagePageTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContactManagePageTest.addDepartment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WeChatTesting0313" />
       <extension name="coverage">
@@ -305,6 +317,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ContactManagePageTest.addDepartment" />
+        <item itemvalue="JUnit.ContactManagePageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -319,59 +332,62 @@
       <option name="presentableId" value="Default" />
       <updated>1552443464959</updated>
       <workItem from="1552443466448" duration="10891000" />
-      <workItem from="1552530875243" duration="14771000" />
+      <workItem from="1552530875243" duration="15003000" />
+      <workItem from="1552869285196" duration="168000" />
+      <workItem from="1553165041962" duration="2375000" />
+      <workItem from="1553215404597" duration="176000" />
+      <workItem from="1553226347800" duration="5892000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactManagePageTest_addDepartment - 2019.03.14 at 15h 00m 00s.xml">
+    <history-entry file="ContactManagePageTest - 2019.03.21 at 19h 20m 57s.xml">
+      <configuration name="ContactManagePageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactManagePageTest - 2019.03.22 at 11h 46m 34s.xml">
+      <configuration name="ContactManagePageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactManagePageTest - 2019.03.22 at 11h 49m 17s.xml">
+      <configuration name="ContactManagePageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactManagePageTest - 2019.03.22 at 11h 49m 37s.xml">
+      <configuration name="ContactManagePageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContactManagePageTest_addDepartment - 2019.03.22 at 13h 53m 28s.xml">
       <configuration name="ContactManagePageTest.addDepartment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactManagePageTest_addDepartment - 2019.03.14 at 15h 01m 51s.xml">
+    <history-entry file="ContactManagePageTest_addDepartment - 2019.03.22 at 14h 41m 41s.xml">
       <configuration name="ContactManagePageTest.addDepartment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactManagePageTest_addDepartment - 2019.03.14 at 15h 02m 57s.xml">
+    <history-entry file="ContactManagePageTest_addDepartment - 2019.03.22 at 14h 46m 15s.xml">
       <configuration name="ContactManagePageTest.addDepartment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactManagePageTest_addDepartment - 2019.03.14 at 17h 03m 44s.xml">
+    <history-entry file="ContactManagePageTest_addDepartment - 2019.03.22 at 14h 57m 04s.xml">
       <configuration name="ContactManagePageTest.addDepartment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactManagePageTest_addDepartment - 2019.03.14 at 17h 05m 55s.xml">
+    <history-entry file="ContactManagePageTest_addDepartment - 2019.03.22 at 15h 10m 27s.xml">
       <configuration name="ContactManagePageTest.addDepartment" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContactManagePageTest_addDepartment - 2019.03.14 at 17h 10m 29s.xml">
-      <configuration name="ContactManagePageTest.addDepartment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactManagePageTest_addDepartment - 2019.03.14 at 17h 11m 44s.xml">
-      <configuration name="ContactManagePageTest.addDepartment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactManagePageTest_addDepartment - 2019.03.14 at 17h 12m 25s.xml">
-      <configuration name="ContactManagePageTest.addDepartment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactManagePageTest_addDepartment - 2019.03.14 at 17h 13m 44s.xml">
-      <configuration name="ContactManagePageTest.addDepartment" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ContactManagePageTest_addDepartment - 2019.03.14 at 17h 19m 09s.xml">
+    <history-entry file="ContactManagePageTest_addDepartment - 2019.03.22 at 15h 13m 53s.xml">
       <configuration name="ContactManagePageTest.addDepartment" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25662000" />
+    <option name="totallyTimeSpent" value="34505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1021" y="398" width="988" height="754" extended-state="0" />
+    <frame x="908" y="518" width="1140" height="634" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22410148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2704918" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32780084" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27039275" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33394834" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -382,6 +398,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32352942" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -404,9 +421,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/testcase/BaseTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="135">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -414,20 +441,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/contact/ContactPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tester/et/wechat/api/page/contact/ContactManagePageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/testcase/BaseTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="166">
+          <caret line="31" column="40" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -436,18 +453,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/driver/AppDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
+        <state relative-caret-position="282">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1609#1610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/contact/ContactManagePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="105">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -461,25 +488,15 @@
             <element signature="e#843#844#0" expanded="true" />
             <element signature="e#901#902#0" expanded="true" />
             <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/contact/ContactManagePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tester/et/wechat/api/page/contact/ContactPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tester/et/wechat/api/page/contact/ContactManagePageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
