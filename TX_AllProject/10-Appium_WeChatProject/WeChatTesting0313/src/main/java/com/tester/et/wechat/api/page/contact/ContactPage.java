@@ -24,4 +24,11 @@ public class ContactPage extends BasePage {
 
         return attribute(depName,"text");
     }
+
+    public DepartmentPage gotoDepartment(String DepName){
+        By depName = MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true).instance(0))" +
+                ".scrollIntoView(new UiSelector().text(\""+ DepName +"\").instance(0));");
+        click(depName);
+        return new DepartmentPage();
+    }
 }
