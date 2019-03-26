@@ -3,10 +3,9 @@ package com.tester.et.wechat.api.page.contact;
 import com.tester.et.wechat.api.driver.AppDriver;
 import com.tester.et.wechat.api.page.MainPage;
 import com.tester.et.wechat.api.testcase.BaseTestCase;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
+import java.net.MalformedURLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -19,19 +18,26 @@ class ContactManagePageTest extends BaseTestCase {
 
     @BeforeAll
     static void beforeAllContactManagePageTest() {
-        String depName1 = "子部门01";
-        String depName2 = "子部门02";
+        String depName1 = "demo五";
+//        String depName2 = "子部门02";
         List<String> name = new ArrayList<>();
-        name.add(depName2);
+//        name.add(depName2);
         name.add(depName1);
 
         try {
             for(String n : name){
-                MainPage.getInstance()
-                        .gotoContact()
-                        .gotoDepartment(n)
-                        .gotoManage()
-                        .delDepartment();
+                DepartmentPage departmentPage = MainPage.getInstance().gotoContact().gotoDepartment(n);
+                ContactManagePage contactManagePage = null;
+                if(departmentPage.getChildrenDepartmentNames().size()>0){
+                    for (String childrens : departmentPage.getChildrenDepartmentNames()){
+                        // 有子部门
+                        departmentPage.gotoChildrenDepartment(childrens).gotoManage().delDepartment();
+                    }
+                }else {
+                    // 只有父部门
+                    departmentPage.gotoManage().delDepartment();
+                }
+                contactManagePage.delDepartment();
             }
         }catch (Exception e){
             System.out.println("没有找到部门"+ name +"，可以添加部门！");
@@ -39,8 +45,14 @@ class ContactManagePageTest extends BaseTestCase {
         }
     }
 
-    @AfterEach
-    void tearDown() {
+//    @BeforeEach
+    // 无论如何都先回到首页
+    void beforeEach() throws MalformedURLException {
+        MainPage.getInstance().gotoMain();
+    }
+
+    @AfterAll
+    static void tearDown() {
         AppDriver.getInstance().appiumDriver.quit();
     }
 
@@ -69,5 +81,20 @@ class ContactManagePageTest extends BaseTestCase {
                 .gotoDepartment(depName)
                 .gotoManage()
                 .delDepartment();
+    }
+
+    @Test
+    void deleteChildrenDepartment(){
+        String dep01 = "demo五";
+        String dep02 = "demo5";
+        Boolean value = MainPage.getInstance()
+                .gotoContact()
+                .gotoManage()
+                .addDepartment(dep01).backContactPage()
+                .gotoDepartment(dep01)
+                .gotoManage().addDepartment(dep02).back()
+                .gotoManage().allowDelete();
+
+        assertThat(value,equalTo(true));
     }
 }

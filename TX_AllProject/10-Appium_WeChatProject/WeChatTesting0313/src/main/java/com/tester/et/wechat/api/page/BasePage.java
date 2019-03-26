@@ -4,6 +4,8 @@ import com.tester.et.wechat.api.driver.AppDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
+import java.util.List;
+
 /**
  * @author zc
  * @date 2019-03-13 14:00
@@ -43,5 +45,10 @@ public class BasePage {
     // 获取属性
     public String attribute(By by,String name){
         return findElement(by).getAttribute(name);
+    }
+
+    // 定位多个元素查找方法
+    public List<WebElement> findElements(By by){
+        return AppDriver.getInstance().appiumDriver.findElements(by);
     }
 }

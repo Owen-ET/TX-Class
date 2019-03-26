@@ -30,6 +30,11 @@ public class ContactManagePage extends BasePage {
         return new ContactPage();
     }
 
+    public DepartmentPage back(){
+        click(cancel);
+        return new DepartmentPage();
+    }
+
     // 更多管理
     public ContactManagePage delDepartment(){
         click("更多管理");
@@ -45,4 +50,9 @@ public class ContactManagePage extends BasePage {
         return attribute(depName,"text");
     }
 
+    // 删除父部门，判断有无删除按钮
+    public boolean allowDelete(){
+        click("更多管理");
+        return findElements(byText(" 删除部门")).size()>0;
+    }
 }

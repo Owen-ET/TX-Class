@@ -1,7 +1,10 @@
 package com.tester.et.wechat.api.page;
 
+import com.tester.et.wechat.api.driver.AppDriver;
 import com.tester.et.wechat.api.page.contact.ContactPage;
 import org.openqa.selenium.By;
+
+import java.net.MalformedURLException;
 
 /**
  * @author zc
@@ -23,5 +26,11 @@ public class MainPage extends BasePage{
             mainpage= new MainPage();
         }
         return mainpage;
+    }
+
+    // 每次都从main开始启动
+    public MainPage gotoMain() throws MalformedURLException {
+        AppDriver.getInstance().start();
+        return getInstance();
     }
 }
