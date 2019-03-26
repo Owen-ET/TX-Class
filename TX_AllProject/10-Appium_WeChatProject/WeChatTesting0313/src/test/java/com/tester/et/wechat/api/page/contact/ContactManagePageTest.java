@@ -26,18 +26,20 @@ class ContactManagePageTest extends BaseTestCase {
 
         try {
             for(String n : name){
-                DepartmentPage departmentPage = MainPage.getInstance().gotoContact().gotoDepartment(n);
-                ContactManagePage contactManagePage = null;
-                if(departmentPage.getChildrenDepartmentNames().size()>0){
-                    for (String childrens : departmentPage.getChildrenDepartmentNames()){
-                        // 有子部门
-                        departmentPage.gotoChildrenDepartment(childrens).gotoManage().delDepartment();
-                    }
-                }else {
-                    // 只有父部门
-                    departmentPage.gotoManage().delDepartment();
-                }
-                contactManagePage.delDepartment();
+//                DepartmentPage departmentPage = MainPage.getInstance().gotoContact().gotoDepartment(n);
+//                ContactManagePage contactManagePage = null;
+//                if(departmentPage.getChildrenDepartmentNames().size()>0){
+//                    for (String childrens : departmentPage.getChildrenDepartmentNames()){
+//                        // 有子部门
+//                        departmentPage.gotoChildrenDepartment(childrens).gotoManage().delDepartment();
+//                    }
+//                }else {
+//                    // 只有父部门
+//                    departmentPage.gotoManage().delDepartment();
+//                }
+//                contactManagePage.delDepartment();
+
+                MainPage.getInstance().gotoContact().gotoDepartment(n).deleteAll().gotoManage().delDepartment();
             }
         }catch (Exception e){
             System.out.println("没有找到部门"+ name +"，可以添加部门！");
@@ -45,7 +47,7 @@ class ContactManagePageTest extends BaseTestCase {
         }
     }
 
-//    @BeforeEach
+    @BeforeEach
     // 无论如何都先回到首页
     void beforeEach() throws MalformedURLException {
         MainPage.getInstance().gotoMain();
@@ -95,6 +97,6 @@ class ContactManagePageTest extends BaseTestCase {
                 .gotoManage().addDepartment(dep02).back()
                 .gotoManage().allowDelete();
 
-        assertThat(value,equalTo(true));
+        assertThat(value,equalTo(false));
     }
 }

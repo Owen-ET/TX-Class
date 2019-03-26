@@ -39,4 +39,13 @@ public class DepartmentPage extends BasePage {
         System.out.println(array);
         return array;
     }
+
+    // 删除所有部门
+    public DepartmentPage deleteAll(){
+        while(findElements(byText("部门无成员")).size()==0){
+            String sub = getChildrenDepartmentNames().get(0);
+            gotoChildrenDepartment(sub).gotoManage().delDepartment().back();
+        }
+        return this;
+    }
 }

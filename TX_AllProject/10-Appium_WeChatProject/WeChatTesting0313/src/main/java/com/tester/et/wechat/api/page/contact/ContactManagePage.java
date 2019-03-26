@@ -15,6 +15,7 @@ public class ContactManagePage extends BasePage {
 //    By 添加子部门 = byText("添加子部门");
 //    By 更多管理 = byText("更多管理");
     By cancel = By.id("e9k");
+    By 返回 = By.id("e91");
 
 
     // 添加部门
@@ -32,6 +33,7 @@ public class ContactManagePage extends BasePage {
 
     public DepartmentPage back(){
         click(cancel);
+        click(返回);
         return new DepartmentPage();
     }
 
