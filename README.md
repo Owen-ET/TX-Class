@@ -1,36 +1,53 @@
 # TX-Class
 
-Selenium [![Travis Status](https://travis-ci.org/SeleniumHQ/selenium.svg?branch=master)](//travis-ci.org/SeleniumHQ/selenium) [![AppVeyor Status](https://ci.appveyor.com/api/projects/status/pg1f99p1aetp9mk9/branch/master?svg=true)](https://ci.appveyor.com/project/SeleniumHQ/selenium/branch/master)
-========
-[![SeleniumHQ](http://www.seleniumhq.org/images/big-logo.png)](http://www.seleniumhq.org/)
+Appium Python Client
+====================
 
-Selenium is an umbrella project encapsulating a variety of tools and
-libraries enabling web browser automation. Selenium specifically
-provides infrastructure for the [W3C WebDriver specification](https://dvcs.w3.org/hg/webdriver/raw-file/tip/webdriver-spec.html)
-— a platform and language-neutral coding interface compatible with all
-major web browsers.
+[![PyPI version](https://badge.fury.io/py/Appium-Python-Client.svg)](https://badge.fury.io/py/Appium-Python-Client)
 
-The project is made possible by volunteer contributors who've
-generously donated thousands of hours in code development and upkeep.
+An extension library for adding [Selenium 3.0 draft](https://dvcs.w3.org/hg/webdriver/raw-file/tip/webdriver-spec.html) and [Mobile JSON Wire Protocol Specification draft](https://github.com/SeleniumHQ/mobile-spec/blob/master/spec-draft.md)
+functionality to the Python language bindings, for use with the mobile testing
+framework [Appium](https://appium.io).
 
-Selenium's source code is made available under the [Apache 2.0 license](https://github.com/SeleniumHQ/selenium/blob/master/LICENSE).
+# Getting the Appium Python client
 
-## Documentation
+There are three ways to install and use the Appium Python client.
 
-Narrative documentation:
+1. Install from [PyPi](https://pypi.org), as
+['Appium-Python-Client'](https://pypi.org/project/Appium-Python-Client/).
 
-* [User Manual](https://docs.seleniumhq.org/docs/)
-* [New Handbook](https://seleniumhq.github.io/docs/) (work in progress)
+    ```shell
+    pip install Appium-Python-Client
+    ```
 
-API documentation:
+    You can see the history from [here](https://pypi.org/project/Appium-Python-Client/#history)
 
-* [C#](https://seleniumhq.github.io/selenium/docs/api/dotnet/)
-* [JavaScript](https://seleniumhq.github.io/selenium/docs/api/javascript/)
-* [Java](https://seleniumhq.github.io/selenium/docs/api/java/index.html)
-* [Python](https://seleniumhq.github.io/selenium/docs/api/py/)
-* [Ruby](https://seleniumhq.github.io/selenium/docs/api/rb/)
+2. Install from source, via [PyPi](https://pypi.org). From ['Appium-Python-Client'](https://pypi.org/project/Appium-Python-Client/),
+download and unarchive the source tarball (Appium-Python-Client-X.X.tar.gz).
 
-## Pull Requests
+    ```shell
+    tar -xvf Appium-Python-Client-X.X.tar.gz
+    cd Appium-Python-Client-X.X
+    python setup.py install
+    ```
 
-Please read [CONTRIBUTING.md](https://github.com/SeleniumHQ/selenium/blob/master/CONTRIBUTING.md)
-before submitting your pull requests.
+3. Install from source via [GitHub](https://github.com/appium/python-client).
+
+    ```shell
+    git clone git@github.com:appium/python-client.git
+    cd python-client
+    python setup.py install
+    ```
+
+# Development
+
+- Style Guide: https://www.python.org/dev/peps/pep-0008/
+    - `autopep8` helps to format code automatically
+        ```
+        $ python -m autopep8 -r --global-config .config-pep8 -i .
+        ```
+- You can customise `CHANGELOG.rst` with commit messages following [.gitchangelog.rc](.gitchangelog.rc)
+    - It generates readable changelog
+- Setup
+    - `pip install -r development.txt`
+    - `pre-commit install`
