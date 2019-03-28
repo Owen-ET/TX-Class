@@ -58,6 +58,11 @@
     ①svn update XXX(更新指定文件/文件夹)
 
     ②svn ci -m "test-update"
+    
+    4-4、SVN删除命令：
+    ①svn delete xxx(删除指定文件)
+    
+    ②svn ci -m “delete test”
 
     5、命令行启动WDA
 
