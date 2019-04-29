@@ -1,0 +1,143 @@
+1、Mac安装Docker
+brew cask install docker
+2、查看版本
+docker --version
+3、查看信息
+docker info
+
+========================
+镜像管理命令
+镜像下载地址：https://hub.docker.com
+1）拉取最新的jenkins镜像
+docker pull jenkins/jenkins
+2）推送镜像
+docker push {image_name}
+3）查看当前机器的所有镜像
+docker images
+4）删除一个镜像
+docker rmi {image_name}
+5）为一个镜像打tag
+docker tag jenkins myjenkins:5.5
+6）保存一个tar包
+docker save busybox > busybox.tar
+7）加载重新安装
+docker load < busybox.tar.gz
+
+========================
+容器管理命令
+1）运行容器*
+docker run -d --name ETjenkins -p 8080:8080 jenkins/jenkins
+2）查看当前所有容器，-s:代表当前容器占用的容量-a:列举所有状态
+docker ps -s -a 
+3）停止容器
+docker stop {container_name} 
+4）杀死容器
+docker kill 􏰋container_name􏰎 
+5）强制删除容器*
+docker rm -f {container_name} 
+6）查看容器性能
+docker stats ETjenkins
+7）到日志里面去看：
+docker logs -f etjenkins
+8）挂载：-v
+docker run -d --name ETjenkins -p 8080:8080 -v /Users/zhangc/images/test/jenkins_home/:/var/jenkins_home jenkins/jenkins
+挂载权限问题：
+sudo chown -R 1000:1000 {本地目录}
+
+9）进入容器内部
+docker exec -it {输入ID} /bin/bash 
+#-it:启动虚拟shell
+或者：
+docker exec -it {容器名} bash
+
+
+========================
+本地与容器交互命令
+1）docker exec myjenkins echo "hello world"
+2）docker exec myjenkins ping www.baidu.com
+3）复制本地到容器
+docker cp 'pwd'/12.png myjenkins:/home
+
+
+========================
+制作镜像
+1）docker commit myjenkins myjenkins:5.5
+注意：必须需要用⼀个还在运行的容器去build一 个镜像
+2）从⼀个dockerfile build出⼀个新的镜像 
+docker build -t {容器名称:版本号} -f {dockerfile path} {工作⽬录} 
+Docker build -t 容器名 -f Dockerfile .
+
+
+
+========================
+搭建mysql数据库
+1）创建mysql容器
+docker run -d --name et-mysql -v /Users/zhangc/images/test/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=1234567 -p 8880:3306 mysql
+-e:传递默认初始密码
+2）连接两个容器--link
+①docker run -d --name test_sleep_infinity --link et-mysql centos sleep infinity
+②docker exec -it test_sleep_infinity bash
+③env
+
+
+
+========================
+搭建TESTLINK
+1）创建
+docker run -d --name mariadb -e ALLOW_EMPTY_PASSWORD=yes -e MARIADB_USER=bn_testlink -e MARIADB_DATABASE=bitnami_testlink -v /Users/zhangc/images/test/mysql:/var/lib/mysql -p 8881:3306 bitnami/mariadb:latest
+
+2）关联
+docker run -d --name testlink -p 8099:80 -p 444:443 -e ALLOW_EMPTY_PASSWORD=yes -e TESTLINK_DATABASE_USER=bn_testlink -e TESTLINK_DATABASE_NAME=bitnami_testlink --link mariadb bitnami/testlink:latest 
+
+
+
+========================
+网络模式
+1）HOST模式
+docker run -d --name myjenkins --net host jenkins
+2）container模式
+前后端启动
+docker run --name=conan -itd -p 8999:4200 conan(前端)
+docker run --name=holmes -itd --net=container:conan holmes(后端)
+
+
+
+========================
+搭建Grid分布式
+1）hub
+docker run --name=hub -p 5001:4444 -e GRID_TIMEOUT=0 -e GRID_THROW_ON_CAPABILITY_NOT_PRESENT=true -e GRID_NEW_SESSION_WAIT_TIMEOUT=-1 -e GRID_BROWSER_TIMEOUT=15000 -e GRID_TIMEOUT=30000 -e GRID_CLEAN_UP_CYCLE=30000 -d selenium/hub:3.7.1-beryllium
+
+2）启动node
+docker run --name=chrome -p 5902:5900 -e NODE_MAX_INSTANCES=6 -e NODE_MAX_SESSION=6 -e NODE_REGISTER_CYCLE=5000 -e DBUS_SESSION_BUS_ADDRESS=/dev/null -v /Users/zhangc/images/test/node/dev/shm:/dev/shm --link hub -d selenium/node-chrome-debug
+
+
+
+========================
+搭建Prometheus+Grafana监控
+1）运行prometheus
+docker run --name prometheus -d -p 9090:9090 -v /Users/zhangc/images/test/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml -v /Users/zhangc/images/test/prometheus/rules/:/etc/prometheus/ prom/prometheus --config.file=/etc/prometheus/prometheus.yml
+
+2）运行node-exporter
+docker run -d --name node-exporter  -p 9100:9100 -v "/proc:/host/proc:ro" -v "/sys:/host/sys:ro" -v "/:/rootfs:ro" prom/node-exporter
+
+3）可视化仪表盘：GRAFNA
+docker run -d --name grafana -p 8000:3000 -v /Users/zhangc/images/test/grafana-storage/:/var/lib/grafana grafana/grafana
+
+4）监控mysql
+①容器启动mysql
+docker run -d --name et-mysql -v /Users/zhangc/images/test/mysql:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=1234567 -p 8880:3306 mysql
+
+②安装MYSQLD-EXEPORTER
+docker pull prom/mysqld-exporter
+
+③启动MYSQLD-EXEPORTER
+docker run -d --name mysql-exporter -p 9104:9104 -e DATA_SOURCE_NAME="root:1234567@(localhost:8880)/mysql" prom/mysqld-exporter
+
+
+========================
+扩展：
+1）查看端口是否运行：
+lsof -i tcp:9100
+2）容器中安装zip
+yum install -y unzip zip
+安装成功后就可以使用unzip命令了。
