@@ -97,11 +97,16 @@
     git push -u origin master
 
     =========================
-
+    强制更新
     git fetch --all
     git reset --hard origin/master
     git pull
 
+    =========================
+    修改文件名
+    git mv readme.txt(旧) read.txt(新)
+    git commit -s -m "修改名字"
+    git push
 
     7、启动appium并生成日志
 
