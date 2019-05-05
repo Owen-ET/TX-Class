@@ -1,3 +1,4 @@
+import com.testZC.wework.WewordConfig;
 import com.testZC.wework.Wework;
 import org.junit.jupiter.api.Test;
 
@@ -15,7 +16,7 @@ public class TestGetToken {
 
     @Test
     public void testToken(){
-        String token = Wework.getToken();
+        String token = Wework.getWeworkToken(WewordConfig.getInstance().secret);
         assertThat(token,not(equalTo(null)));
     }
 }

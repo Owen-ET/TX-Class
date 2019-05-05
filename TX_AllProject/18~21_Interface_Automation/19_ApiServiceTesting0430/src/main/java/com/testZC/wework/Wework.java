@@ -10,10 +10,10 @@ import io.restassured.RestAssured;
 public class Wework {
 
     private static String token;
-    public static String getWeworkToken(){
+    public static String getWeworkToken(String secret){
         return RestAssured.given()
                 .queryParam("corpid", WewordConfig.getInstance().corpid)
-                .queryParam("corpsecret", WewordConfig.getInstance().secret)
+                .queryParam("corpsecret", secret)
         .when()
                 .get("https://qyapi.weixin.qq.com/cgi-bin/gettoken")
         .then()
@@ -23,10 +23,15 @@ public class Wework {
                 .extract().path("access_token");
     }
 
+//    public static String getWeworkTokenForContact(){
+//
+//    }
+
     // 单例获取token
     public static String getToken(){
+        //todo:两种token
         if (token==null){
-            token = getWeworkToken();
+            token = getWeworkToken(WewordConfig.getInstance().通讯录Secret);
         }
         return token;
     }
