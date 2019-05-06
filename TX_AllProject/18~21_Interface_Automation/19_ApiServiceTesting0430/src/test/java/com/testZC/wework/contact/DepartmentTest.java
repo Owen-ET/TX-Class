@@ -82,7 +82,7 @@ class DepartmentTest {
 
     @Test
     void deleteAll(){
-        String name = "Owen000";
+        String name = "Owen00";
         Integer intID = department.list("").path("department.find{ it.name=='"+name+"'}.id");
         String id = String.valueOf(intID);
         department.delete(id);

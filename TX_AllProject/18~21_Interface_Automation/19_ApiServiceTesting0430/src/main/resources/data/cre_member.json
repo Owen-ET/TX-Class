@@ -10,7 +10,7 @@
   "email": "zhangsan@gzdev.com",
   "is_leader_in_dept": [1, 0],
   "enable":1,
-  "avatar_mediaid": "2-G6nrLmr5EC3MNb_-zL1dDdzkd0p7cNliYu9V5w7o8K0",
+  "avatar_mediaid": null,
   "telephone": "020-123456",
   "address": "广州市海珠区新港中路",
   "extattr": {
@@ -35,7 +35,7 @@
   "to_invite": false,
   "external_position": "高级产品经理",
   "external_profile": {
-    "external_corp_name": "企业简称",
+    "external_corp_name": null,
     "external_attr": [
       {
         "type": 0,
@@ -58,7 +58,7 @@
         "miniprogram": {
           "appid": "wx8bd80126147df384",
           "pagepath": "/index",
-          "title": "my miniprogram"
+          "title": "myET"
         }
       }
     ]

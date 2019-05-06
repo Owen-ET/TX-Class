@@ -12,6 +12,8 @@ import static io.restassured.RestAssured.given;
  */
 
 public class Contact extends Restful {
+    // 随机数
+    String random = String.valueOf(System.currentTimeMillis());
     public Contact(){
         reset();
     }
