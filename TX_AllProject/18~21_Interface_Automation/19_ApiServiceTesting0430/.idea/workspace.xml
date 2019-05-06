@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0f24206d-1503-4d5d-ae75-e46e4b81d148" name="Default Changelist" comment="5.6【部门】增删改查接口测试普通封装完毕">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testZC/wework/Restful.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testZC/wework/Restful.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Department.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../课程跟踪.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课程跟踪.xlsx" afterDir="false" />
@@ -33,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Department.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="56">
+              <caret line="34" column="38" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+            <state relative-caret-position="201">
+              <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/Restful.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="123">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#173#189#0" expanded="true" />
@@ -70,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Contact.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
+            <state relative-caret-position="213">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -125,8 +123,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/data/update.json" />
         <option value="$PROJECT_DIR$/src/main/resources/data/create.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Contact.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Department.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/testZC/wework/Restful.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Department.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java" />
       </list>
     </option>
@@ -139,9 +137,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="699" />
+    <option name="x" value="976" />
     <option name="y" value="480" />
-    <option name="width" value="1349" />
+    <option name="width" value="1072" />
     <option name="height" value="672" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -240,7 +238,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../../install/android-sdk-macosx" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557127579635" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557130344847" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -271,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DepartmentTest">
+  <component name="RunManager" selected="JUnit.DepartmentTest.deleteAll">
     <configuration name="DepartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="19_ApiServiceTesting0430" />
       <extension name="coverage">
@@ -282,6 +280,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.testZC.wework.contact" />
       <option name="MAIN_CLASS_NAME" value="com.testZC.wework.contact.DepartmentTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DepartmentTest.createByMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="19_ApiServiceTesting0430" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.testZC.wework.contact.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.testZC.wework.contact" />
+      <option name="MAIN_CLASS_NAME" value="com.testZC.wework.contact.DepartmentTest" />
+      <option name="METHOD_NAME" value="createByMap" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -334,29 +348,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepartmentTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="19_ApiServiceTesting0430" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testZC.wework.contact.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.testZC.wework.contact" />
-      <option name="MAIN_CLASS_NAME" value="com.testZC.wework.contact.DepartmentTest" />
-      <option name="METHOD_NAME" value="update" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DepartmentTest" />
         <item itemvalue="JUnit.DepartmentTest.deleteAll" />
+        <item itemvalue="JUnit.DepartmentTest.createByMap" />
+        <item itemvalue="JUnit.DepartmentTest" />
         <item itemvalue="JUnit.DepartmentTest.list" />
         <item itemvalue="JUnit.DepartmentTest.createChiness" />
-        <item itemvalue="JUnit.DepartmentTest.update" />
       </list>
     </recent_temporary>
   </component>
@@ -371,7 +369,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557036975096</updated>
       <workItem from="1557036976709" duration="12917000" />
-      <workItem from="1557108077725" duration="12332000" />
+      <workItem from="1557108077725" duration="14448000" />
     </task>
     <task id="LOCAL-00001" summary="【部门】增删改查接口测试普通封装完毕">
       <created>1557126919450</created>
@@ -387,19 +385,17 @@
       <option name="project" value="LOCAL" />
       <updated>1557127535152</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="5.6【部门】增删改查接口测试普通封装完毕">
+      <created>1557127594234</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557127594235</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DepartmentTest_deleteAll - 2019.05.06 at 14h 58m 30s.xml">
-      <configuration name="DepartmentTest.deleteAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DepartmentTest_deleteAll - 2019.05.06 at 14h 58m 41s.xml">
-      <configuration name="DepartmentTest.deleteAll" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DepartmentTest_deleteAll - 2019.05.06 at 14h 58m 47s.xml">
-      <configuration name="DepartmentTest.deleteAll" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DepartmentTest - 2019.05.06 at 14h 59m 47s.xml">
       <configuration name="DepartmentTest" configurationId="JUnit" />
     </history-entry>
@@ -421,15 +417,24 @@
     <history-entry file="DepartmentTest - 2019.05.06 at 15h 03m 51s.xml">
       <configuration name="DepartmentTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DepartmentTest_createByMap - 2019.05.06 at 16h 06m 08s.xml">
+      <configuration name="DepartmentTest.createByMap" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DepartmentTest_deleteAll - 2019.05.06 at 16h 10m 09s.xml">
+      <configuration name="DepartmentTest.deleteAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DepartmentTest_createByMap - 2019.05.06 at 16h 10m 23s.xml">
+      <configuration name="DepartmentTest.createByMap" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25249000" />
+    <option name="totallyTimeSpent" value="27365000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="699" y="480" width="1349" height="672" extended-state="0" />
+    <frame x="976" y="480" width="1072" height="672" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17674063" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22427185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -438,7 +443,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39310345" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31896552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40666667" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,9 +544,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.4.0/json-path-2.4.0.jar!/com/jayway/jsonpath/JsonPath.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="274" column="33" selection-start-line="274" selection-start-column="18" selection-end-line="274" selection-end-column="33" />
+          <folding>
+            <element signature="e#11801#11802#0" expanded="true" />
+            <element signature="e#11860#11861#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/Restful.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#173#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="213">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -553,29 +580,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Department.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="56">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/Restful.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#173#189#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+        <state relative-caret-position="201">
+          <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

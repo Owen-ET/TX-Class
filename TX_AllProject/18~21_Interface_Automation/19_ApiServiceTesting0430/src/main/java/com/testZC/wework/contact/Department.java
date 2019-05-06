@@ -1,10 +1,13 @@
 package com.testZC.wework.contact;
 
+import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
 import com.testZC.wework.WewordConfig;
 import com.testZC.wework.Wework;
 import io.restassured.response.Response;
 
+
+import java.util.HashMap;
 
 import static io.restassured.RestAssured.given;
 
@@ -40,6 +43,25 @@ public class Department extends Contact{
                 .when().post("https://qyapi.weixin.qq.com/cgi-bin/department/create")
                 .then()
 //                .log().all().statusCode(200)  改造删除
+                .extract().response();
+    }
+
+    //  json传递数据进行改造
+    public Response createByMap(HashMap<String,Object> map){
+
+        reset();
+        DocumentContext documentContext = JsonPath.parse(this.getClass().getResourceAsStream("/data/create.json"));
+        map.entrySet().forEach(entry->{
+            documentContext.set(entry.getKey(),entry.getValue());
+        });
+        //  改造删除
+//        String body = JsonPath.parse(this.getClass().getResourceAsStream("/data/create.json"))
+//                .set("$.name",name)
+//                .set("$.parentid",parentid).jsonString();
+        return requestSpecification //改造
+                .body(documentContext.jsonString()) //  改造
+                .when().post("https://qyapi.weixin.qq.com/cgi-bin/department/create")
+                .then()
                 .extract().response();
     }
 

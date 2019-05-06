@@ -7,6 +7,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 
+import java.util.HashMap;
+
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.junit.jupiter.api.Assertions.*;
@@ -68,13 +70,23 @@ class DepartmentTest {
                 .then().body("errcode",equalTo(0));
     }
 
-//    @Test
-//    void deleteAll(){
-//        String name = "欧文1557125986302";
-//        Integer intID = department.list("").path("department.find{ it.name=='"+name+"'}.id");
-//        String id = String.valueOf(intID);
-//        department.delete(id);
-//    }
+    //  json传递数据进行改造
+    @Test
+    void createByMap() {
+        HashMap<String ,Object> map = new HashMap<String,Object>(){{
+            put("name","Owen00");
+            put("parentid","18");
+        }};
+        department.createByMap(map).then().log().all().body("errcode",equalTo(0));
+    }
+
+    @Test
+    void deleteAll(){
+        String name = "Owen000";
+        Integer intID = department.list("").path("department.find{ it.name=='"+name+"'}.id");
+        String id = String.valueOf(intID);
+        department.delete(id);
+    }
 
 //    @Test
 //    void createChiness(){
