@@ -10,7 +10,7 @@ import static io.restassured.RestAssured.given;
 
 /**
  * @author zc
- * @date 2019-05-06 11:21/
+ * @date 2019-05-06 11:21
  */
 
 public class Restful {

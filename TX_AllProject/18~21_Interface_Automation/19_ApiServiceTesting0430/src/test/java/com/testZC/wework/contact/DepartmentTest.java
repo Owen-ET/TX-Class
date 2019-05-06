@@ -46,7 +46,7 @@ class DepartmentTest {
 
     @Test
     void update() {
-///        department.update("21","Owen2","18","0")
+//        department.update("21","Owen2","18","0")
 //                .then().log().all().body("errmsg",equalTo("updated"));
         String name = "欧文"+random;
         //去除创建的部门id

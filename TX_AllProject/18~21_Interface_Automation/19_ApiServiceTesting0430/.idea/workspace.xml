@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f24206d-1503-4d5d-ae75-e46e4b81d148" name="Default Changelist" comment="">
+    <list default="true" id="0f24206d-1503-4d5d-ae75-e46e4b81d148" name="Default Changelist" comment="5.6【部门】增删改查接口测试普通封装完毕">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/testZC/wework/Restful.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testZC/wework/Restful.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../课程跟踪.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../课程跟踪.xlsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Department.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="107">
-              <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+            <state relative-caret-position="184">
+              <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/Restful.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#173#189#0" expanded="true" />
@@ -70,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Contact.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="186">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#212#213#0" expanded="true" />
@@ -239,7 +240,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../../install/android-sdk-macosx" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557127501761" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557127579635" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -370,7 +371,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557036975096</updated>
       <workItem from="1557036976709" duration="12917000" />
-      <workItem from="1557108077725" duration="12254000" />
+      <workItem from="1557108077725" duration="12332000" />
     </task>
     <task id="LOCAL-00001" summary="【部门】增删改查接口测试普通封装完毕">
       <created>1557126919450</created>
@@ -379,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557126919450</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="5.6【部门】增删改查接口测试普通封装完毕">
+      <created>1557127535151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557127535152</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -415,7 +423,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25171000" />
+    <option name="totallyTimeSpent" value="25249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="699" y="480" width="1349" height="672" extended-state="0" />
@@ -457,7 +465,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="【部门】增删改查接口测试普通封装完毕" />
-    <option name="LAST_COMMIT_MESSAGE" value="【部门】增删改查接口测试普通封装完毕" />
+    <MESSAGE value="5.6【部门】增删改查接口测试普通封装完毕" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.6【部门】增删改查接口测试普通封装完毕" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -533,7 +542,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#212#213#0" expanded="true" />
@@ -545,7 +554,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Department.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
-          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -555,7 +564,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/Restful.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#173#189#0" expanded="true" />
@@ -565,8 +574,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="48" column="2" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="2" />
+        <state relative-caret-position="184">
+          <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
