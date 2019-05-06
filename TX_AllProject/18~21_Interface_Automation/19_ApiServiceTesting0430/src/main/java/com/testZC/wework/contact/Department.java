@@ -58,7 +58,7 @@ public class Department extends Contact{
         .when()
                 .post("https://qyapi.weixin.qq.com/cgi-bin/department/update")
         .then()
-//                .log().all().statusCode(200)
+///                .log().all().statusCode(200)
                 .extract().response();
     }
 

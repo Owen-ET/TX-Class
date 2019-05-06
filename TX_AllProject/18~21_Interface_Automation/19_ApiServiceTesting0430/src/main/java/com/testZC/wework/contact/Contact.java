@@ -20,6 +20,6 @@ public class Contact extends Restful {
     public void reset(){
         requestSpecification=given().log().all().queryParam("access_token", Wework.getToken())
                 .contentType(ContentType.JSON);
-//                .expect().log().all().statusCode(200);
+///                .expect().log().all().statusCode(200);
     }
 }
