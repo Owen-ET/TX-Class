@@ -23,6 +23,7 @@ class DepartmentTest {
     void setUp() {
         if (department==null){
             department = new Department();
+            department.deleteAll();
         }
     }
 
@@ -30,8 +31,8 @@ class DepartmentTest {
     void list() {
 
         department.list("")
-                .then().statusCode(200)
-                .body("department.name[0]",equalTo("喵当家"));
+                .then().statusCode(200);
+//                .body("department.name",equalTo("喵当家"));
 
         department.list("")
                 .then().statusCode(200)
@@ -55,7 +56,7 @@ class DepartmentTest {
         department.create(name,"18");
         Integer intID = department.list("").path("department.find{ it.name=='"+name+"'}.id");
         String id = String.valueOf(intID);
-        department.update(id,"欧文0_"+random,"18").then().body("errcode",equalTo(0));
+        department.update(id,"欧文1_"+random,"18").then().body("errcode",equalTo(0));
     }
 
     @Test
@@ -80,13 +81,18 @@ class DepartmentTest {
         department.createByMap(map).then().log().all().body("errcode",equalTo(0));
     }
 
-    @Test
-    void deleteAll(){
-        String name = "Owen00";
-        Integer intID = department.list("").path("department.find{ it.name=='"+name+"'}.id");
-        String id = String.valueOf(intID);
-        department.delete(id);
-    }
+//    @Test
+//    void deleteOne(){
+//        String name = "Owen00";
+//        Integer intID = department.list("").path("department.find{ it.name=='"+name+"'}.id");
+//        String id = String.valueOf(intID);
+//        department.delete(id);
+//    }
+//
+//    @Test
+//    void deleteAll() {
+//        department.deleteAll();
+//    }
 
 //    @Test
 //    void createChiness(){

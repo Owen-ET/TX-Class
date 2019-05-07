@@ -8,6 +8,7 @@ import io.restassured.response.Response;
 
 
 import java.util.HashMap;
+import java.util.List;
 
 import static io.restassured.RestAssured.given;
 
@@ -50,6 +51,7 @@ public class Department extends Contact{
     public Response createByMap(HashMap<String,Object> map){
 
         reset();
+        // JsonPath地址:https://github.com/json-path/JsonPath
         DocumentContext documentContext = JsonPath.parse(this.getClass().getResourceAsStream("/data/create.json"));
         map.entrySet().forEach(entry->{
             documentContext.set(entry.getKey(),entry.getValue());
@@ -93,5 +95,13 @@ public class Department extends Contact{
         .then()
                 .log().all().statusCode(200)
                 .extract().response();
+    }
+
+    public Response deleteAll(){
+        reset();
+        List<Integer> list = list("").then().log().all().extract().path("department.id");
+        System.out.println(list);
+        list.forEach(id->delete(id.toString()));
+        return null;
     }
 }
