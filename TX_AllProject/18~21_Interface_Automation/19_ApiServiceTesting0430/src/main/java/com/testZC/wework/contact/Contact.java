@@ -24,4 +24,8 @@ public class Contact extends Restful {
                 .contentType(ContentType.JSON);
 //                .expect().log().all().statusCode(200);
     }
+
+    public String newRandom(int x){
+        return random.substring(random.length()-x);
+    }
 }
