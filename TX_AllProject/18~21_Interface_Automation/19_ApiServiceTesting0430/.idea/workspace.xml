@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f24206d-1503-4d5d-ae75-e46e4b81d148" name="Default Changelist" comment="5.7【部门】：删除所有空成员部门">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/csvAndDup.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/demo.har.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/member.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/swagger.json" afterDir="false" />
+    <list default="true" id="0f24206d-1503-4d5d-ae75-e46e4b81d148" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/MemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/MemberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/testZC/wework/contact/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testZC/wework/contact/Contact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/testZC/wework/contact/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testZC/wework/contact/Department.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testZC/wework/contact/DepartmentTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testZC/wework/contact/DepartmentTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testZC/wework/contact/DepartmentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testZC/wework/contact/DepartmentTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="100" column="2" lean-forward="true" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="2" />
+            <state relative-caret-position="153">
+              <caret line="99" column="7" lean-forward="true" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,10 +166,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="695" />
-    <option name="y" value="252" />
-    <option name="width" value="1350" />
-    <option name="height" value="900" />
+    <option name="x" value="765" />
+    <option name="y" value="470" />
+    <option name="width" value="1280" />
+    <option name="height" value="682" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -288,7 +278,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../../install/android-sdk-macosx" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557224136274" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557224272989" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -475,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557213374123</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="5.7【整理】：数据驱动的整理完善，差swagger、har的封装">
+      <created>1557224231339</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557224231339</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -511,7 +508,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57520000" />
+    <option name="totallyTimeSpent" value="57825000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,9 +520,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="695" y="252" width="1350" height="900" extended-state="0" />
+    <frame x="765" y="470" width="1280" height="682" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19036697" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20113085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -534,7 +532,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39727724" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3542373" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40666667" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -565,7 +563,8 @@
     <MESSAGE value="5.6部门更新：json传递数据进行改造" />
     <MESSAGE value="5.7【成员】数据驱动改造" />
     <MESSAGE value="5.7【部门】：删除所有空成员部门" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.7【部门】：删除所有空成员部门" />
+    <MESSAGE value="5.7【整理】：数据驱动的整理完善，差swagger、har的封装" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.7【整理】：数据驱动的整理完善，差swagger、har的封装" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar!/io/restassured/http/ContentType.class">
@@ -774,8 +773,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="100" column="2" lean-forward="true" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="2" />
+        <state relative-caret-position="153">
+          <caret line="99" column="7" lean-forward="true" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
