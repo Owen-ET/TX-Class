@@ -5,6 +5,8 @@ import io.restassured.http.ContentType;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
 
 
 import java.util.HashMap;
@@ -23,7 +25,7 @@ class DepartmentTest {
     void setUp() {
         if (department==null){
             department = new Department();
-            department.deleteAll();
+//            department.deleteAll();
         }
     }
 
@@ -79,6 +81,14 @@ class DepartmentTest {
             put("parentid","18");
         }};
         department.createByMap(map).then().log().all().body("errcode",equalTo(0));
+    }
+
+    //  数据驱动结合断言
+    @ParameterizedTest
+    @CsvFileSource(resources = "/data/csvAndDup.csv")
+    void csvAndDup(String name,String parentid,Integer code){
+        department.create(name+random,parentid).then().log().all().body("errcode",equalTo(0));
+        department.create(name+random,parentid).then().log().all().body("errcode",equalTo(code));
     }
 
 //    @Test

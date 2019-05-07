@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f24206d-1503-4d5d-ae75-e46e4b81d148" name="Default Changelist" comment="">
+    <list default="true" id="0f24206d-1503-4d5d-ae75-e46e4b81d148" name="Default Changelist" comment="5.7【部门】：删除所有空成员部门">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/csvAndDup.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/demo.har.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/member.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/swagger.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Department.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/MemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/MemberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testZC/wework/contact/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testZC/wework/contact/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testZC/wework/contact/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testZC/wework/contact/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testZC/wework/contact/DepartmentTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testZC/wework/contact/DepartmentTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/testZC/wework/contact/DepartmentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/testZC/wework/contact/DepartmentTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Department.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="63" column="21" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="21" />
+            <state relative-caret-position="216">
+              <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,9 +36,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/data/demo.har.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="130" column="28" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/data/swagger.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Member.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
+            <state relative-caret-position="112">
               <caret line="12" column="23" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -39,38 +65,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/MemberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="36" column="62" lean-forward="true" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+            <state relative-caret-position="176">
+              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/data/member.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+            <state relative-caret-position="30">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/data/cre_member.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1017">
-              <caret line="104" column="51" lean-forward="true" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
+            <state relative-caret-position="494">
+              <caret line="100" column="2" lean-forward="true" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,10 +96,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/Restful.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/data/csvAndDup.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+            <state relative-caret-position="15">
+              <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestGetToken.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,22 +120,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/WewordConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Contact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#727#728#0" expanded="true" />
-              </folding>
+              <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -147,8 +158,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Member.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data/cre_member.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Contact.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/MemberTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Department.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/demo.har" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/swagger.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/member.csv" />
+        <option value="$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/MemberTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/csvAndDup.csv" />
         <option value="$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java" />
       </list>
     </option>
@@ -161,10 +176,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="856" />
-    <option name="y" value="491" />
-    <option name="width" value="1192" />
-    <option name="height" value="661" />
+    <option name="x" value="695" />
+    <option name="y" value="252" />
+    <option name="width" value="1350" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -250,6 +265,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="contact" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="19_ApiServiceTesting0430" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_ApiServiceTesting0430" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="19_ApiServiceTesting0430" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_ApiServiceTesting0430" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -262,7 +288,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../../install/android-sdk-macosx" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557213339974" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557224136274" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -293,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DepartmentTest">
+  <component name="RunManager" selected="JUnit.DepartmentTest.csvAndDup">
     <configuration name="DepartmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="19_ApiServiceTesting0430" />
       <extension name="coverage">
@@ -324,7 +350,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepartmentTest.departmentAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DepartmentTest.csvAndDup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="19_ApiServiceTesting0430" />
       <extension name="coverage">
         <pattern>
@@ -334,7 +360,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.testZC.wework.contact" />
       <option name="MAIN_CLASS_NAME" value="com.testZC.wework.contact.DepartmentTest" />
-      <option name="METHOD_NAME" value="departmentAll" />
+      <option name="METHOD_NAME" value="csvAndDup(java.lang.String,java.lang.String,java.lang.Integer)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -356,7 +382,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DepartmentTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemberTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="19_ApiServiceTesting0430" />
       <extension name="coverage">
         <pattern>
@@ -365,27 +391,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.testZC.wework.contact" />
-      <option name="MAIN_CLASS_NAME" value="com.testZC.wework.contact.DepartmentTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="com.testZC.wework.contact.MemberTest" />
+      <option name="METHOD_NAME" value="create(java.lang.String,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DepartmentTest.test" />
-      <item itemvalue="JUnit.DepartmentTest.departmentAll" />
       <item itemvalue="JUnit.DepartmentTest" />
       <item itemvalue="JUnit.DepartmentTest.list" />
       <item itemvalue="JUnit.DepartmentTest.create" />
+      <item itemvalue="JUnit.MemberTest.create" />
+      <item itemvalue="JUnit.DepartmentTest.csvAndDup" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DepartmentTest.csvAndDup" />
+        <item itemvalue="JUnit.MemberTest.create" />
         <item itemvalue="JUnit.DepartmentTest" />
         <item itemvalue="JUnit.DepartmentTest.create" />
         <item itemvalue="JUnit.DepartmentTest.list" />
-        <item itemvalue="JUnit.DepartmentTest.departmentAll" />
-        <item itemvalue="JUnit.DepartmentTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -442,19 +468,17 @@
       <option name="project" value="LOCAL" />
       <updated>1557207835654</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="5.7【部门】：删除所有空成员部门">
+      <created>1557213374123</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557213374123</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DepartmentTest_list - 2019.05.07 at 14h 48m 43s.xml">
-      <configuration name="DepartmentTest.list" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DepartmentTest_list - 2019.05.07 at 14h 49m 00s.xml">
-      <configuration name="DepartmentTest.list" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DepartmentTest_list - 2019.05.07 at 14h 49m 18s.xml">
-      <configuration name="DepartmentTest.list" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DepartmentTest_list - 2019.05.07 at 14h 51m 12s.xml">
       <configuration name="DepartmentTest.list" configurationId="JUnit" />
     </history-entry>
@@ -476,15 +500,32 @@
     <history-entry file="DepartmentTest - 2019.05.07 at 14h 55m 10s.xml">
       <configuration name="DepartmentTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MemberTest_create - 2019.05.07 at 17h 35m 20s.xml">
+      <configuration name="MemberTest.create" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DepartmentTest_csvAndDup - 2019.05.07 at 18h 05m 16s.xml">
+      <configuration name="DepartmentTest.csvAndDup" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DepartmentTest_csvAndDup - 2019.05.07 at 18h 09m 37s.xml">
+      <configuration name="DepartmentTest.csvAndDup" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51491000" />
+    <option name="totallyTimeSpent" value="57520000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="856" y="491" width="1192" height="661" extended-state="0" />
-    <editor active="true" />
+    <frame x="695" y="252" width="1350" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20695652" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19036697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -493,15 +534,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36379614" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39727724" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40666667" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.27408993" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.41741356" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32904148" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32337433" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -523,7 +564,8 @@
     <MESSAGE value="5.6【部门】增删改查接口测试普通封装完毕" />
     <MESSAGE value="5.6部门更新：json传递数据进行改造" />
     <MESSAGE value="5.7【成员】数据驱动改造" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.7【成员】数据驱动改造" />
+    <MESSAGE value="5.7【部门】：删除所有空成员部门" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.7【部门】：删除所有空成员部门" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar!/io/restassured/http/ContentType.class">
@@ -637,27 +679,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
-          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestGetToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="80" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -671,7 +693,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/Restful.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
-          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -681,34 +703,82 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/WewordConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/demo.har.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="130" column="28" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/swagger.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestGetToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/testZC/wework/contact/Department.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="63" column="21" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="21" />
+        <state relative-caret-position="216">
+          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/member.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1017">
-          <caret line="104" column="51" lean-forward="true" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/csvAndDup.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/MemberTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="36" column="62" lean-forward="true" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+        <state relative-caret-position="176">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/testZC/wework/contact/DepartmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="100" column="2" lean-forward="true" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
