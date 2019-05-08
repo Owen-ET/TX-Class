@@ -91,6 +91,13 @@ class DepartmentTest {
         department.create(name+random,parentid).then().log().all().body("errcode",equalTo(code));
     }
 
+    @Test
+    void updateAll(){
+        //todo:动态调用
+        HashMap<String,Object>map=new HashMap<>();
+        department.updateAll(map).then().statusCode(200);
+    }
+
 //    @Test
 //    void deleteOne(){
 //        String name = "Owen00";

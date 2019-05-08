@@ -104,4 +104,18 @@ public class Department extends Contact{
         list.forEach(id->delete(id.toString()));
         return null;
     }
+
+    //  har引擎模板
+    public Response update(HashMap<String,Object>map){
+        return templateFromHar(
+                "/data/demo.har.json",
+                "https://work.weixin.qq.com/wework_admin/party?action=addparty",
+                map);
+    }
+
+    //todo:动态调用
+    public Response updateAll(HashMap<String,Object>map){
+        return api("api.json",map);
+    }
+
 }

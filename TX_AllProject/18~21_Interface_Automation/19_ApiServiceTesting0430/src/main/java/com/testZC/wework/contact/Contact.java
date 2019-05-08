@@ -23,6 +23,12 @@ public class Contact extends Restful {
         requestSpecification=given().log().all().queryParam("access_token", Wework.getToken())
                 .contentType(ContentType.JSON);
 //                .expect().log().all().statusCode(200);
+        //  加解密
+        requestSpecification.filter((req,res,ctx)->{
+            //todo:对请求响应做封装
+            req.queryParam("");
+            return ctx.next(req,res);
+        });
     }
 
     public String newRandom(int x){
