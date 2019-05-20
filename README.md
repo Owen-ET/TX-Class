@@ -130,6 +130,14 @@
     adb shell dumpsys window |grep Focus= # 获取当前的信息
 
     adb shell dumpsys activity | grep LAUNCHER |sed -n '1p' # 获取第一行
+    
+    11、查看服务器：
+    ssh sqm@192.168.2.210，123456
+    cd B2B_Management_Test/log/
+    tail -f citymine-appuser-2.0-SNAPSHOT.jar.log
+    
+    12、sp
+    Dayuzhou66
     ```
 
 二. 课程更新步骤
