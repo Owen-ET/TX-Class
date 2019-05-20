@@ -1,0 +1,277 @@
+第一节
+1. Jmeter 5.0 安装及环境变量设置
+Mac：安装 Brew， Wget 等
+下载安装 JDK8 https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html 
+java -version # 检查JDK版本
+/usr/libexec/java_home -V # 列出 JAVA_HOME
+配置环境变量 vim ~/.bash_profile
+echo $JAVA_HOME，echo $PATH，echo $CLASSPATH
+
+下载 Jmeter
+http://jmeter.apache.org/download_jmeter.cgi
+
+export JMETER_HOME=/Users/macman/TesterHomeClass/apache-jmeter-5.1.1
+export PATH=$JAVA_HOME/bin:$PATH:.:$JMETER_HOME/bin:$PATH
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JMETER_HOME/lib/ext/ApacheJMeter_core.jar:$JMETER_HOME/lib/jorphan.jar:$JMETER_HOME/lib/logkit-2.0.jar
+
+source ~/.bash_profile
+Jmeter
+
+Windows:
+选择 Windows 对应版本。
+
+2. 配置基本的 HTTP Request Sample
+讲解下 GUI 运行，以及 CMD 运行。
+讲解下 JMX 文件。
+
+3. Jmeter 自带代理录制功能
+OpenTemplate
+Add Certificate
+Mac Proxy Setting
+抓取 HTTPS
+过滤 指定域名 www.zhihu.com
+回放
+
+
+第二节
+1. Jmeter 基本性能测试操作
+
+吞吐控制 Throughtoutput
+并发控制 ThreadGroup
+递增压测 Rampup
+JMeter Plugins Manager
+https://jmeter-plugins.org/install/Install/ 
+mv /Users/macman/Downloads/jmeter-plugins-manager-1.3.jar $JMETER_HOME/lib/ext
+Restart Jmeter
+Add Throud Group Test
+
+
+事务控制 TestFragrement/ThreadGroups
+比例控制 BeanshellControl.jmx
+参数化 CSV Reader / Redis Reader
+
+介绍 Redis 
+
+docker run -it --name redis -p 6379:6379 redis
+/Users/macman/Docker
+
+逻辑控制 
+参数传递 Post Processor
+
+HTTP 场景测试
+完整登陆场景设计
+
+需求分析 -> 准备  -> Jmx -> 测试结果报告 （性能瓶颈分析待定）
+
+ /Cookie/Header 传递 Login+CooKie.jmx
+
+# create folder
+mkdir hitchhiker
+cd hitchhiker
+
+# download docker-compose & mysql.conf file from github
+curl -O https://raw.githubusercontent.com/brookshi/Hitchhiker/release/deploy/docker/hitchhiker_and_mysql/docker-compose.yml -O https://raw.githubusercontent.com/brookshi/Hitchhiker/release/deploy/docker/hitchhiker_and_mysql/hitchhiker-mysql.cnf
+
+# edit docker-compose.yml file
+sudo vim docker-compose.yml
+# replace localhost to your host ip/domain and save&quit
+...
+
+# docker-compose up
+sudo docker-compose up -d
+
+# test
+curl http://ip:8080/
+
+
+1.2
+Jmeter HTTPS:
+curl https://www.zhihu.com/api/v4/answers/596492867/concerned_upvoters?limit=5&offset=0
+
+openssl  s_client  -connect  www.zhihu.com:443 -showcerts
+Save Cert B-E to Application_CA_Public_Cert.cer
+keytool -importcert -alias APPLICATION_NAME_CA_PUBLIC_CERT -file Application_CA_Public_Cert.cer -keystore jmeter_truststore.jks -storepass Passw0rd
+
+System.Property:
+javax.net.ssl.keyStore=<your_JKS_filename.jks>
+javax.net.ssl.keyStorePassword=Passw0rd
+
+Or:
+jmeter -n -t /Users/macman/TesterHome/HttpsRecoder.jmx -D javax.net.ssl.keyStore=/Users/macman/TesterHome/jmeter_truststore.jks -D javax.net.ssl.keyStorePassword=Passw0rd
+
+
+多个 Key 选择，以及切换 -J https.keyStoreStartIndex 
+
+
+3. Jmeter Mysql 
+mysql connector
+
+docker run --name first-mysql -p 3306:3306 -e MYSQL\_ROOT\_PASSWORD=123456 -d mysql
+docker exec -it mysqlserver /bin/bash
+ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'root'
+create user 'test'@'%' identified with mysql_native_password by '123456';
+grant all privileges on *.* to 'test'@'%' with grant option;
+grant all privileges on *.* to 'test'@'%';
+
+Navicat Connet
+
+create table temp(
+    id int(11)  primary key auto_increment,
+    name varchar(25),
+    ddeptId int(11),
+    salary float
+);
+
+https://mvnrepository.com/artifact/mysql/mysql-connector-java/8.0.12
+mv /Users/macman/Downloads/mysql-connector-java-8.0.12.jar ./lib/ext
+
+INSERT INTO `testerhome`.`temp`(`name`, `ddeptId`, `salary`) VALUES ('xs', 123, 99);
+INSERT INTO `testerhome`.`temp`(`name`, `ddeptId`, `salary`) VALUES ('ss', 123, 98);
+INSERT INTO `testerhome`.`temp`(`name`, `ddeptId`, `salary`) VALUES ('sr', 124, 97);
+INSERT INTO `testerhome`.`temp`(`name`, `ddeptId`, `salary`) VALUES ('ee', 125, 90);
+INSERT INTO `testerhome`.`temp`(`name`, `ddeptId`, `salary`) VALUES ('eh', 125, 90);
+
+select id,name from temp limit 10
+
+
+第三节
+1. Jmeter 分布式压测
+Docker File:
+Jmeter Base Docker File
+FROM openjdk:8-jre-slim
+MAINTAINER TesterHome
+
+ARG JMETER_VERSION=5.3
+
+# Install JMeter
+RUN   mkdir /jmeter \
+      && cd /jmeter/ \
+      && wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-$JMETER_VERSION.tgz \
+      && tar -xzf apache-jmeter-$JMETER_VERSION.tgz \
+
+# Set ENV
+ENV JMETER_HOME /jmeter/apache-jmeter-$JMETER_VERSION/
+ENV PATH $JMETER_HOME/bin:$PATH
+
+// Docker build -t jmeterbase ./jmeterbase
+
+Master File:
+FROM thperf/jmeterbase
+MAINTAINER TestHome
+
+# Ports to be exposed from the container for JMeter Master
+EXPOSE 60000
+
+Slave File:
+FROM thperf/jmeterbase
+MAINTAINER TestHome
+
+# Ports to be exposed from the container for JMeter Slaves/Server
+EXPOSE 1099 50000
+
+# Application to run on starting the container
+ENTRYPOINT $JMETER_HOME/bin/jmeter-server \
+                        -Dserver.rmi.localport=50000 \
+                        -Dserver_port=1099
+
+docker run -idt --name jmetermaster thperf/master /bin/bash
+docker exec -i jmetermaster sh -c 'cat > /jmeter/apache-jmeter-5.0/bin/docker-sample.jmx' < /Users/macman/Docker/Jmeter/sample.jmx
+
+docker exec -i ETmaster sh -c 'cat > /jmeter/apache-jmeter-5.0/bin/docker-sample.jmx' < /Users/zhangc/Desktop/mine/Stu资料/课堂/TX_AllProject/23_JmeterFile/sample.jmx
+
+docker run -idt --name jmeterslave1 thperf/slave /bin/bash
+docker run -idt --name jmeterslave2 thperf/slave /bin/bash
+ 
+docker ps -a 
+docker logs jmeterslave1
+
+docker inspect --format '{{ .Name }} => {{ .NetworkSettings.IPAddress }}' $( docker ps -a -q)
+
+jmeter -n -t /jmeter/apache-jmeter-5.0/bin/docker-sample.jmx
+jmeter -n -t /jmeter/apache-jmeter-5.0/bin/docker-sample.jmx -R172.17.0.3,172.17.0.4
+
+
+2. Jmeter Dubbo 性能测试
+
+https://github.com/dubbo/jmeter-plugins-dubbo
+git clone https://github.com/binblee/dubbo-docker.git
+
+mvn install 
+cd service-producer
+mvn package
+docker build -t producer .
+
+cd service-consumer
+mvn package
+docker build -t consumer .
+
+expose 20880 in docker-compose 
+
+docker-compose up -d
+
+
+第四节：
+1. Jmeter + InfluxDB + Grafana 实时展示 
+docker run -d -p 8086:8086 -p 2003:2003 -p 8083:8083 \
+    -e INFLUXDB_GRAPHITE_ENABLED=true \
+    -e INFLUXDB_ADMIN_ENABLED=true \
+    influxdb
+
+docker run -d --name=influxdb -p 8086:8086 -p 8083:8083 -e INFLUXDB_GRAPHITE_ENABLED=true -e INFLUXDB_ADMIN_ENABLED=true influxdb
+
+ docker run -d -p 8083:8083 -p 8086:8086 -e ADMIN_USER="root" -e INFLUXDB_INIT_PWD="root" -e PRE_CREATE_DB="testerhome" --name influxdb tutum/influxdb:latest
+ docker exec -it influxdb /bin/bash
+
+ curl -i -XPOST http://localhost:8086/query --data-urlencode "q=CREATE DATABASE testerhome"
+
+ Run with Listener.jmx
+ curl 'http://localhost:8086/query?pretty=true' --data-urlencode "db=testerhome" --data-urlencode "q=SHOW SERIES"
+ SHOW TAG VALUES FROM "jmeter" WITH KEY = "application"
+
+ http://localhost:8083/
+ show MEASUREMENTS
+ select * from jmeter
+
+ docker run -d --name=grafana --link influxdb:influxdb -p 3000:3000 grafana/grafana 
+ localhost:3000
+ Add DBsource
+
+ import from https://grafana.com/dashboards/5496
+
+ Run Jmeter
+
+2. 服务端机器性能监控
+Cadvisor / Collected
+docker run --volume=/:/rootfs:ro --volume=/var/run:/var/run:rw --volume=/sys:/sys:ro --volume=/var/lib/docker/:/var/lib/docker:ro --publish=8081:8080 --detach=true --link influxdb:influxdb --name cadvisor google/cadvisor:v0.24.1 -storage_driver=influxdb -storage_driver_db=cadvisor --storage_driver_host=influxdb:8086
+
+SELECT derivative(mean("value"),10s) FROM "cpu_usage_total" WHERE container_name='cadvisor' AND $timeFilter GROUP BY time($__interval),container_name fill(previous)
+SELECT mean("value") FROM "cpu_usage_total" WHERE container_name='cadvisor' AND $timeFilter GROUP BY time($__interval),container_name fill(previous)
+
+
+3. Jmeter 二次开发
+1.1 源码解析阅读
+https://github.com/apache/jmeter
+Download source from https://archive.apache.org/dist/jmeter/source/
+apache-jmeter-5.1_src.tgz
+tar -xzf apache-jmeter-5.1_src.tgz
+Download Idea/Eclipise
+Import From Eclipise
+Ant Download Jar
+Module Setting Setup: Add Source:protocol, Update dependence
+Ant Build 
+Open -> NewDriver => build configuration
+Run
+
+3. Jmeter Thrift 性能测试, 
+
+show code, 5.0 newest version
+cp /Users/macman/Downloads/libthrift-0.9.3.jar $JMETER_HOME/lib/ext
+
+
+核心源码解读
+HashTree 是 JMeter Datastructor，Data Configuration，Jmeter Jmx Files.
+StandardJMeterEngine，Remote Server RemoteJMeterEngineImpl
+SinglonJmeter
+
+1.2 简单讲一下压测平台开发
+

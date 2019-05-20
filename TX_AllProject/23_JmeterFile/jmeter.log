@@ -1,0 +1,20 @@
+2019-05-17 11:23:33,953 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2019-05-17 11:23:33,974 INFO o.a.j.JMeter: Loading user properties from: /Users/zhangc/Desktop/mine/install/apache-jmeter-5.1.1/bin/user.properties
+2019-05-17 11:23:33,993 INFO o.a.j.JMeter: Loading system properties from: /Users/zhangc/Desktop/mine/install/apache-jmeter-5.1.1/bin/system.properties
+2019-05-17 11:23:34,008 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2019-05-17 11:23:34,008 INFO o.a.j.JMeter: Version 5.1.1 r1855137
+2019-05-17 11:23:34,008 INFO o.a.j.JMeter: java.version=1.8.0_181
+2019-05-17 11:23:34,008 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-05-17 11:23:34,008 INFO o.a.j.JMeter: os.name=Mac OS X
+2019-05-17 11:23:34,008 INFO o.a.j.JMeter: os.arch=x86_64
+2019-05-17 11:23:34,008 INFO o.a.j.JMeter: os.version=10.13.6
+2019-05-17 11:23:34,008 INFO o.a.j.JMeter: file.encoding=UTF-8
+2019-05-17 11:23:34,008 INFO o.a.j.JMeter: java.awt.headless=true
+2019-05-17 11:23:34,008 INFO o.a.j.JMeter: Max memory     =1073741824
+2019-05-17 11:23:34,009 INFO o.a.j.JMeter: Available Processors =4
+2019-05-17 11:23:34,012 INFO o.a.j.JMeter: Default Locale=English (EN)
+2019-05-17 11:23:34,012 INFO o.a.j.JMeter: JMeter  Locale=Chinese (China)
+2019-05-17 11:23:34,012 INFO o.a.j.JMeter: JMeterHome=/Users/zhangc/Desktop/mine/install/apache-jmeter-5.1.1
+2019-05-17 11:23:34,012 INFO o.a.j.JMeter: user.dir  =/Users/zhangc/Desktop/mine/Stu资料/课堂/TX_AllProject/23_JmeterFile
+2019-05-17 11:23:34,012 INFO o.a.j.JMeter: PWD       =/Users/zhangc/Desktop/mine/Stu资料/课堂/TX_AllProject/23_JmeterFile
+2019-05-17 11:23:34,020 INFO o.a.j.JMeter: IP: 218.68.250.118 Name: test FullName: 218.68.250.118
