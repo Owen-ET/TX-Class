@@ -3,16 +3,10 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
-import java.io.File;
-import java.util.concurrent.TimeUnit;
 
 /**
  * @author zc
@@ -39,6 +33,8 @@ public class Demo {
         //  启动Chrome浏览器
         WebDriver driver = new ChromeDriver();
         driver.get("https://testerhome.com/");
+
+
         //  ①隐式等待
 //        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
