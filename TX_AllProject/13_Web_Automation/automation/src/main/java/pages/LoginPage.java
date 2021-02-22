@@ -4,7 +4,6 @@ package pages;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
-
 import static pages.BasePage.open;
 import static pages.BasePage.clear;
 import static pages.BasePage.click;
@@ -28,16 +27,16 @@ public class LoginPage {
     String input2 = "222";
     private By loginButton1_loc = By.linkText("登录");
     private By username_loc = By.cssSelector(".new_user>div.form-group>input[type='text']");
-    String username = "OWEN_ET";
+//    String username = "OWEN_ET";
     private By password_loc = By.name("user[password]");
-    String password = "(Dayuzhou66)";
+//    String password = "(Dayuzhou66)";
     private By loginButton2_loc = By.className("btn-primary");
     private By userDropDown_loc = By.cssSelector("#navbar-user-menu");
     private By userInfo_loc = By.cssSelector("ul.justify-content-end>li.dropdown-avatar>div>a");
     int num = 1;
 
 
-    public void loginAction() {
+    public void loginAction(String username,String password) {
 
 
         //  TODO PO模式
@@ -56,19 +55,30 @@ public class LoginPage {
         sendKeys(password_loc,password);
         //  点击登录按钮2
         click(loginButton2_loc);
-        //  显式等待个人信息下拉框
-        explicitWait(userDropDown_loc).click();
-        //  获取下拉列表信息
-        String text = getTexts(userInfo_loc,num);
-        System.out.println(text);
-        Assert.assertEquals(text,"个人资料设置2","msg:'" + text + "'显示不对");
 
 //        return this;
 
     }
 
 
+    public void userInfo(String username,String password){
+
+        loginAction(username,password);
+        //  显式等待个人信息下拉框
+        explicitWait(userDropDown_loc).click();
+
+
+        //  获取下拉列表信息
+//        String text = getTexts(userInfo_loc,num);
+//        System.out.println(text);
+//        Assert.assertEquals(text,"个人资料设置2","msg:'" + text + "'显示不对");
+
+    }
+
+
     public static void main(String[] ags){
-        new LoginPage().loginAction();
+        //  调试代码
+//        new LoginPage().loginAction();
+//        new LoginPage().userInfo("","");
     }
 }

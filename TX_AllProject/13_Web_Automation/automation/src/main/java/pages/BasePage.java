@@ -20,10 +20,11 @@ public class BasePage {
     static WebDriver driver = new ChromeDriver();
     static WebDriverWait wait;
 
-    static void open(){
+    static WebDriver open(){
         //  启动Chrome浏览器
         driver.get("https://testerhome.com/");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        return driver;
     }
 
 
@@ -39,7 +40,7 @@ public class BasePage {
     }
 
 
-    static WebElement explicitWait(By loc){
+    public static WebElement explicitWait(By loc){
         //  显式等待
         wait = new WebDriverWait(driver,10);
         return wait.until(ExpectedConditions.visibilityOfElementLocated(loc));
@@ -70,12 +71,14 @@ public class BasePage {
     }
 
 
-    static String getTexts(By loc,int num){
+    public static String getTexts(By loc,int num){
         // 多元素获取文本
         return finds(loc,num).getText();
     }
-    /*
-    test static
 
-     */
+
+    public static void quit(){
+        // 关闭浏览器
+        driver.quit();
+    }
 }

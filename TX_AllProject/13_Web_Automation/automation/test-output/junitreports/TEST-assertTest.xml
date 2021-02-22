@@ -41,4 +41,4 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
     </failure>
   </testcase> <!-- test1 -->
   <testcase name="test2" time="5.279" classname="assertTest"/>
-</testsuite> <!-- assertTest -->
+</testsuite> <!-- LoginPO -->

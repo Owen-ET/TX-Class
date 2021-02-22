@@ -13,7 +13,7 @@
           <include name="test1"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- assertTest -->
+      </class> <!-- LoginPO -->
     </classes>
   </test> <!-- automation(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->
