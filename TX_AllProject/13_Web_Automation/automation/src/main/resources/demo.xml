@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="myPlan">
+    <test name="Test" parallel="true"> <!--并行执行用例-->
+        <classes>
+            <class name="testNG1"/>
+            <class name="testNG2"/>
+        </classes>
+    </test>
+</suite>
